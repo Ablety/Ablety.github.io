@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>宋志宽</title>
+  
+  <subtitle>个人博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ablety.github.io/"/>
+  <updated>2018-09-30T09:39:57.415Z</updated>
+  <id>https://ablety.github.io/</id>
+  
+  <author>
+    <name>宋志宽</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://ablety.github.io/2018/09/30/hello-world/"/>
+    <id>https://ablety.github.io/2018/09/30/hello-world/</id>
+    <published>2018-09-30T10:34:55.057Z</published>
+    <updated>2018-09-30T09:39:57.415Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
