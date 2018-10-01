@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ablety.github.io/"/>
-  <updated>2018-09-30T09:39:57.415Z</updated>
+  <updated>2018-10-01T14:37:03.489Z</updated>
   <id>https://ablety.github.io/</id>
   
   <author>
@@ -17,24 +17,22 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://ablety.github.io/2018/09/30/hello-world/"/>
-    <id>https://ablety.github.io/2018/09/30/hello-world/</id>
-    <published>2018-09-30T10:34:55.057Z</published>
-    <updated>2018-09-30T09:39:57.415Z</updated>
+    <title>js数组</title>
+    <link href="https://ablety.github.io/2018/10/01/jsArray/"/>
+    <id>https://ablety.github.io/2018/10/01/jsArray/</id>
+    <published>2018-10-01T14:06:05.000Z</published>
+    <updated>2018-10-01T14:37:03.489Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      &lt;h3 id=&quot;数组本身是对象&quot;&gt;&lt;a href=&quot;#数组本身是对象&quot; class=&quot;headerlink&quot; title=&quot;数组本身是对象&quot;&gt;&lt;/a&gt;数组本身是对象&lt;/h3&gt;&lt;p&gt;数组是一段线性分配的内存，通过整数去计算偏移量去访问其中元素。数组可以是很快的数据结构，不幸的是javascript并没有这种像数组一样的数据结构，而是提供了一种类数组特性的特殊对象，它把数组下标转成字符串，用作其属性。属性的检索和更新可以像对象一样一样的，除了有一个可以用整数作为属性名的特性外。&lt;br&gt;
     
     </summary>
     
+    
+      <category term="前端，javascript" scheme="https://ablety.github.io/tags/%E5%89%8D%E7%AB%AF%EF%BC%8Cjavascript/"/>
+    
+      <category term="数组" scheme="https://ablety.github.io/tags/%E6%95%B0%E7%BB%84/"/>
     
   </entry>
   
