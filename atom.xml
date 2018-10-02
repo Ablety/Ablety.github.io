@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ablety.github.io/"/>
-  <updated>2018-10-02T11:03:20.380Z</updated>
+  <updated>2018-10-02T11:04:56.069Z</updated>
   <id>https://ablety.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>GitOrder</title>
+    <title>Git相关命令</title>
     <link href="https://ablety.github.io/2018/10/02/GitOrder/"/>
     <id>https://ablety.github.io/2018/10/02/GitOrder/</id>
     <published>2018-10-02T05:39:21.000Z</published>
-    <updated>2018-10-02T11:03:20.380Z</updated>
+    <updated>2018-10-02T11:04:56.069Z</updated>
     
     <summary type="html">
     
@@ -70,9 +70,9 @@
     
       <category term="前端" scheme="https://ablety.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="数组" scheme="https://ablety.github.io/tags/%E6%95%B0%E7%BB%84/"/>
-    
       <category term="JavaScript" scheme="https://ablety.github.io/tags/JavaScript/"/>
+    
+      <category term="数组" scheme="https://ablety.github.io/tags/%E6%95%B0%E7%BB%84/"/>
     
   </entry>
   
