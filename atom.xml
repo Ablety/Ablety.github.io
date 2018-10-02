@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ablety.github.io/"/>
-  <updated>2018-10-01T14:48:31.136Z</updated>
+  <updated>2018-10-02T08:55:51.604Z</updated>
   <id>https://ablety.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ablety.github.io/2018/10/01/jsArray/"/>
     <id>https://ablety.github.io/2018/10/01/jsArray/</id>
     <published>2018-10-01T14:06:05.000Z</published>
-    <updated>2018-10-01T14:48:31.136Z</updated>
+    <updated>2018-10-02T08:55:51.604Z</updated>
     
     <summary type="html">
     
@@ -34,9 +34,9 @@
     
       <category term="前端" scheme="https://ablety.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="数组" scheme="https://ablety.github.io/tags/%E6%95%B0%E7%BB%84/"/>
-    
       <category term="javascript" scheme="https://ablety.github.io/tags/javascript/"/>
+    
+      <category term="数组" scheme="https://ablety.github.io/tags/%E6%95%B0%E7%BB%84/"/>
     
   </entry>
   
