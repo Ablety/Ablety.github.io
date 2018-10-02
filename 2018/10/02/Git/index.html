@@ -108,17 +108,22 @@
 
 
 
-  <meta name="description" content="记录软件开发中的一些心得">
-<meta name="keywords" content="前端、react、javascript、">
-<meta property="og:type" content="website">
-<meta property="og:title" content="宋志宽">
-<meta property="og:url" content="https://ablety.github.io/archives/2018/10/index.html">
+  <meta name="description" content="在软件开发中，在个人或多人协作的时候都用到版本控制系统，首次接触的SVN——集中式版本控制系统，到现在的git--分布式版本控制系统...">
+<meta name="keywords" content="-GitHub -git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git使用">
+<meta property="og:url" content="https://ablety.github.io/2018/10/02/Git/index.html">
 <meta property="og:site_name" content="宋志宽">
-<meta property="og:description" content="记录软件开发中的一些心得">
+<meta property="og:description" content="在软件开发中，在个人或多人协作的时候都用到版本控制系统，首次接触的SVN——集中式版本控制系统，到现在的git--分布式版本控制系统...">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://ablety.github.io/2018/10/02/images/gitCommit.jpg">
+<meta property="og:image" content="https://ablety.github.io/2018/10/02/images/conflict.png">
+<meta property="og:image" content="https://ablety.github.io/2018/10/02/images/fixedConflict.png">
+<meta property="og:updated_time" content="2018-10-02T11:03:20.433Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="宋志宽">
-<meta name="twitter:description" content="记录软件开发中的一些心得">
+<meta name="twitter:title" content="Git使用">
+<meta name="twitter:description" content="在软件开发中，在个人或多人协作的时候都用到版本控制系统，首次接触的SVN——集中式版本控制系统，到现在的git--分布式版本控制系统...">
+<meta name="twitter:image" content="https://ablety.github.io/2018/10/02/images/gitCommit.jpg">
 
 
 
@@ -127,7 +132,7 @@
 
 
 
-  <link rel="canonical" href="https://ablety.github.io/archives/2018/10/"/>
+  <link rel="canonical" href="https://ablety.github.io/2018/10/02/Git/"/>
 
 
 
@@ -137,7 +142,7 @@
   };
 </script>
 
-  <title>归档 | 宋志宽</title>
+  <title>Git使用 | 宋志宽</title>
   
 
 
@@ -184,7 +189,7 @@
     
   
 
-  <div class="container sidebar-position-right page-archive">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -233,7 +238,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
   </li>
@@ -321,180 +326,228 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://ablety.github.io/2018/10/02/Git/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="宋志宽">
+      <meta itemprop="description" content="记录软件开发中的一些心得">
+      <meta itemprop="image" content="/images/szk.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="宋志宽">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">Git使用
+              
+            
+          </h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-10-02 12:51:28 / 修改时间：19:03:20" itemprop="dateCreated datePublished" datetime="2018-10-02T12:51:28+08:00">2018-10-02</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 3 篇日志。 继续努力。
-      </span>
-      
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2018">2018</h1>
-          </div>
-        
-        
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/02/GitOrder/" itemprop="url">
-              
-                <span itemprop="name">GitOrder</span>
-              
-            </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-02T13:39:21+08:00"
-              content="2018-10-02" >
-          10-02
-        </time>
-      </div>
+          
+              <div class="post-description">在软件开发中，在个人或多人协作的时候都用到版本控制系统，首次接触的SVN——集中式版本控制系统，到现在的git--分布式版本控制系统...</div>
+          
 
-    </header>
-  </article>
+        </div>
+      </header>
+    
 
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/02/Git/" itemprop="url">
-              
-                <span itemprop="name">Git使用</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-02T12:51:28+08:00"
-              content="2018-10-02" >
-          10-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2018/10/01/jsArray/" itemprop="url">
-              
-                <span itemprop="name">js数组</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-10-01T22:06:05+08:00"
-              content="2018-10-01" >
-          10-01
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <h3 id="回顾"><a href="#回顾" class="headerlink" title="回顾"></a>回顾</h3><p>一直以来都有使用版本控制系统，但对其使用仅仅有限几个命令，常常需要去google、百度，趁国庆黄金周做点git的使用笔记，方法以后来查阅</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>windows安装，安装<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">地址</a>,安装完成后鼠标右键看到有Git Bash说明安装成功。<br>安装成功后配置用户名和邮箱地址<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"your name"</span></span><br><span class="line">git config --global user.email <span class="string">"you email"</span></span><br></pre></td></tr></table></figure></p>
+<p><strong><em>注意 –global代表全局，当前设置环境是全局环境</em></strong></p>
+<h3 id="创建版本库"><a href="#创建版本库" class="headerlink" title="创建版本库"></a>创建版本库</h3><p>创建文件夹，<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir GitHub</span><br><span class="line">$ <span class="built_in">cd</span> GitHub</span><br><span class="line">$ git init</span><br></pre></td></tr></table></figure></p>
+<p>这样文件夹下有.git 文件夹，这是Git用来跟踪管理仓库的，没事不要动这个文件</p>
+<p>创建文件Mycom.js，并编写内容<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="class"><span class="keyword">class</span> <span class="title">MyCom</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">    <span class="keyword">constructor</span>(props)&#123;</span><br><span class="line">        <span class="keyword">super</span>(props);</span><br><span class="line">        <span class="keyword">this</span>.state=&#123;</span><br><span class="line">            count:<span class="number">0</span>,</span><br><span class="line">            content:<span class="string">'this is a test page!'</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    reder()&#123;</span><br><span class="line">        <span class="keyword">const</span> &#123;content&#125;=<span class="keyword">this</span>.state;</span><br><span class="line">        <span class="keyword">return</span> (</span><br><span class="line">            &lt;div&gt;</span><br><span class="line">                &#123;content&#125;</span><br><span class="line">            &lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">        )</span></span><br><span class="line"><span class="regexp">    &#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br></pre></td></tr></table></figure></p>
+<ol>
+<li><p>添加文件到仓库</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git add Mycom.js</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>添加文件到仓库</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -m <span class="string">"新增MyCom文件"</span></span><br></pre></td></tr></table></figure>
+<p> <strong><em>-m后面跟本次提交说明，易于阅读和版本回退参照</em></strong></p>
+</li>
+<li><p>修改文件提交流程也是两步走，add+commit，与新增文件一样</p>
+</li>
+</ol>
+<h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><h4 id="返回上一个版本"><a href="#返回上一个版本" class="headerlink" title="返回上一个版本"></a>返回上一个版本</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git reset --hard HEAD^</span><br></pre></td></tr></table></figure>
+<h4 id="返回指定版本"><a href="#返回指定版本" class="headerlink" title="返回指定版本"></a>返回指定版本</h4><p>使用git log 或者 git reflog 查看版本号，根据版本号返回到指定版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git reset --hard 1094a</span><br></pre></td></tr></table></figure></p>
+<h3 id="Git提交原理"><a href="#Git提交原理" class="headerlink" title="Git提交原理"></a>Git提交原理</h3><p>直接上图<br><img src="../images/gitCommit.jpg" alt="原理图"></p>
+<h3 id="撤销"><a href="#撤销" class="headerlink" title="撤销"></a>撤销</h3><p>撤销工作区到最近一次commit或add的状态<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout --&lt;file&gt;</span><br></pre></td></tr></table></figure></p>
+<p>如果已经add到暂存区，想要撤销暂存区的修改,<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git reset HEAD &lt;file&gt;</span><br></pre></td></tr></table></figure></p>
+<p>使用场景</p>
+<ol>
+<li>工作区修改后没有添加到暂存区，想放弃工作区的修改，使用命令git checkout –<file></file></li>
+<li>工作区已经修改，并提交到暂存区,想放弃修改，分两步走，首先使用命令git reset HEAD <file>回到到场景一，之后按照场景一操作</file></li>
+<li>已经提交了不合适的修改到版本库，并没有推送到远程仓库，想要撤销本次修改，使用git reset –hard HEAD^回退到上一个版本</li>
+</ol>
+<h3 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h3><h4 id="删除工作区文件"><a href="#删除工作区文件" class="headerlink" title="删除工作区文件"></a>删除工作区文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$rm</span> &lt;file&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="删除版本库文件"><a href="#删除版本库文件" class="headerlink" title="删除版本库文件"></a>删除版本库文件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> rm &lt;file&gt;</span><br></pre></td></tr></table></figure>
+<p>工作区错删文件，从版本库还原<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> checkout --&lt;file&gt;</span><br></pre></td></tr></table></figure></p>
+<h3 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h3><p>Git是分布式版本控制系统，克隆在多台机器上的仓库没有主次之分。要使用远程仓库，首先，在GitHub上创建账号。其次，创建SSH Key</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$ssh</span>-keygen -t rsa -C <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
+<p>电脑用户目录下会生成.ssh目录，里面有id_rsa和id_rsa.pub两文件,这是SSH Key的密钥对,id_rsa是私钥，id_rsa.pub是公钥可以给别人用。<br>最后登录GitHub账号，打开Account setting，SSH Keys页面，Add SSH Key ，填上任意的title,key文本框中粘上id_rsa.pub中的内容。<br>提供SSH Key可以让GitHub识别你的电脑确认是你自己推送的内容，而不是别人冒充的，SSH Key可以有多个，让你可以在多台电脑上推送代码（公司、自家屋子里），就问贴不贴心😗。</p>
+<h4 id="添加远程仓库"><a href="#添加远程仓库" class="headerlink" title="添加远程仓库"></a>添加远程仓库</h4><p>GitHub上创建一个仓库，本地仓库中使用命令连接远程仓库<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> remote add origin git@GitHub.com:SongZhikuan/SongZhikuan.GitHub.io.git</span><br></pre></td></tr></table></figure></p>
+<p><font color="olive">SongZhikuan</font>是我的GitHub账号,远程库的名字就叫origin，这个名字可以改但一般情况下没有改的必要，origin一看就是远程库，简单明了。</p>
+<p>推送当前分支master到远程仓库<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> push -u origin master</span><br></pre></td></tr></table></figure></p>
+<p>由于是第一次master分支，加上了-u的参数，Git不但会把本地master分支的内容推送到远程新的master分支上，还会把本地master分支和远程master分支关联起来，在以后的推送和拉取中可以简化命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> push origin master</span><br></pre></td></tr></table></figure></p>
+<h3 id="分支管理"><a href="#分支管理" class="headerlink" title="分支管理"></a>分支管理</h3><p>创建dev分支并切换到dev分支<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> checkout -b dev</span><br></pre></td></tr></table></figure></p>
+<p>创建dev分支<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> git branch  dev</span><br></pre></td></tr></table></figure></p>
+<p>切换到dev分支<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> checkout dev</span><br></pre></td></tr></table></figure></p>
+<p>查看当前分支<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> branch</span><br></pre></td></tr></table></figure></p>
+<p>合并dev分支的内容到当前分支上<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> merge dev</span><br></pre></td></tr></table></figure></p>
+<p>删除分支dev<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> branch -d dev</span><br></pre></td></tr></table></figure></p>
+<h4 id="分支冲突"><a href="#分支冲突" class="headerlink" title="分支冲突"></a>分支冲突</h4><p>master、dev两分支都对README.md文件做了修改并提交到版本库中，分支合并会产生冲突，<br><img src="../images/conflict.png" alt="分支提交"></p>
+<p>手动修改冲突文件README.md,add、commit后合并成功<br><img src="../images/fixedConflict.png" alt="合并成功"></p>
+<p>此过程中使用git log查看详细信息</p>
+<h4 id="分支管理-1"><a href="#分支管理-1" class="headerlink" title="分支管理"></a>分支管理</h4><p>master作为发布稳定版本的分支，dev作为开发分支</p>
+<p>准备合并dev分支，请注意–no-ff参数，表示禁用Fast forward：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git merge --no-ff -m <span class="string">"merge with no-ff"</span> dev</span><br></pre></td></tr></table></figure></p>
+<p>因为本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去。</p>
 
       
-
     </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/GitHub-git/" rel="tag"># -GitHub -git</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/10/01/jsArray/" rel="next" title="js数组">
+                <i class="fa fa-chevron-left"></i> js数组
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/10/02/GitOrder/" rel="prev" title="GitOrder">
+                GitOrder <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -517,8 +570,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -612,6 +674,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#回顾"><span class="nav-number">1.</span> <span class="nav-text">回顾</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建版本库"><span class="nav-number">3.</span> <span class="nav-text">创建版本库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#版本回退"><span class="nav-number">4.</span> <span class="nav-text">版本回退</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#返回上一个版本"><span class="nav-number">4.1.</span> <span class="nav-text">返回上一个版本</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#返回指定版本"><span class="nav-number">4.2.</span> <span class="nav-text">返回指定版本</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git提交原理"><span class="nav-number">5.</span> <span class="nav-text">Git提交原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#撤销"><span class="nav-number">6.</span> <span class="nav-text">撤销</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#删除"><span class="nav-number">7.</span> <span class="nav-text">删除</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#删除工作区文件"><span class="nav-number">7.1.</span> <span class="nav-text">删除工作区文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#删除版本库文件"><span class="nav-number">7.2.</span> <span class="nav-text">删除版本库文件</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#远程仓库"><span class="nav-number">8.</span> <span class="nav-text">远程仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#添加远程仓库"><span class="nav-number">8.1.</span> <span class="nav-text">添加远程仓库</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分支管理"><span class="nav-number">9.</span> <span class="nav-text">分支管理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#分支冲突"><span class="nav-number">9.1.</span> <span class="nav-text">分支冲突</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分支管理-1"><span class="nav-number">9.2.</span> <span class="nav-text">分支管理</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -751,6 +829,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.4.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.4.2"></script>
+
+
 
   
 

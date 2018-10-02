@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ablety.github.io/"/>
-  <updated>2018-10-02T08:55:51.604Z</updated>
+  <updated>2018-10-02T11:03:20.380Z</updated>
   <id>https://ablety.github.io/</id>
   
   <author>
@@ -17,11 +17,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>GitOrder</title>
+    <link href="https://ablety.github.io/2018/10/02/GitOrder/"/>
+    <id>https://ablety.github.io/2018/10/02/GitOrder/</id>
+    <published>2018-10-02T05:39:21.000Z</published>
+    <updated>2018-10-02T11:03:20.380Z</updated>
+    
+    <summary type="html">
+    
+      记录git常用命令，方便查阅
+    
+    </summary>
+    
+    
+      <category term="-github -git" scheme="https://ablety.github.io/tags/github-git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git使用</title>
+    <link href="https://ablety.github.io/2018/10/02/Git/"/>
+    <id>https://ablety.github.io/2018/10/02/Git/</id>
+    <published>2018-10-02T04:51:28.000Z</published>
+    <updated>2018-10-02T11:03:20.433Z</updated>
+    
+    <summary type="html">
+    
+      在软件开发中，在个人或多人协作的时候都用到版本控制系统，首次接触的SVN——集中式版本控制系统，到现在的git--分布式版本控制系统...
+    
+    </summary>
+    
+    
+      <category term="-GitHub -git" scheme="https://ablety.github.io/tags/GitHub-git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>js数组</title>
     <link href="https://ablety.github.io/2018/10/01/jsArray/"/>
     <id>https://ablety.github.io/2018/10/01/jsArray/</id>
     <published>2018-10-01T14:06:05.000Z</published>
-    <updated>2018-10-02T08:55:51.604Z</updated>
+    <updated>2018-10-02T10:55:12.069Z</updated>
     
     <summary type="html">
     
@@ -29,14 +65,14 @@
     
     </summary>
     
-      <category term="hexo" scheme="https://ablety.github.io/categories/hexo/"/>
+      <category term="JavaScript" scheme="https://ablety.github.io/categories/JavaScript/"/>
     
     
       <category term="前端" scheme="https://ablety.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="javascript" scheme="https://ablety.github.io/tags/javascript/"/>
-    
       <category term="数组" scheme="https://ablety.github.io/tags/%E6%95%B0%E7%BB%84/"/>
+    
+      <category term="JavaScript" scheme="https://ablety.github.io/tags/JavaScript/"/>
     
   </entry>
   
