@@ -39,7 +39,7 @@
     <link href="https://ablety.github.io/2018/10/02/Git/"/>
     <id>https://ablety.github.io/2018/10/02/Git/</id>
     <published>2018-10-02T04:51:28.000Z</published>
-    <updated>2018-10-02T11:03:20.433Z</updated>
+    <updated>2018-10-02T11:19:36.522Z</updated>
     
     <summary type="html">
     
@@ -61,7 +61,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;数组本身是对象&quot;&gt;&lt;a href=&quot;#数组本身是对象&quot; class=&quot;headerlink&quot; title=&quot;数组本身是对象&quot;&gt;&lt;/a&gt;数组本身是对象&lt;/h3&gt;&lt;p&gt;数组是一段线性分配的内存，通过整数去计算偏移量去访问其中元素。数组可以是很快的数据结构，不幸的是javascript并没有这种像数组一样的数据结构，而是提供了一种类数组特性的特殊对象，它把数组下标转成字符串，用作其属性。属性的检索和更新可以像对象一样一样的，除了有一个可以用整数作为属性名的特性外。&lt;br&gt;
+      &lt;h3 id=&quot;数组本身是对象&quot;&gt;&lt;a href=&quot;#数组本身是对象&quot; class=&quot;headerlink&quot; title=&quot;数组本身是对象&quot;&gt;&lt;/a&gt;数组本身是对象&lt;/h3&gt;&lt;p&gt;数组是一段线性分配的内存，通过整数去计算偏移量去访问其中元素。数组可以是很快的数据结构，不幸的是javascript并没有这种像数组一样的数据结构，而是提供了一种类数组特性的特殊对象，它把数组下标转成字符串，用作其属性。属性的检索和更新可以像对象一样一样的，除了有一个可以用整数作为属性名的特性外。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
