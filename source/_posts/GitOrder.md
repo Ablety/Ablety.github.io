@@ -57,4 +57,8 @@ git checkout -b branch-name origin/branch-name  本地创建和远程分支对�
 
 git branch --set-upstream branch-name origin/branch-name  建立本地分支和远程分支的关联
 
-git pull                                    从远程抓取分支       
+git pull                                    从远程抓取分支      
+
+git push origin dev:dev                     推送本地分支到远程
+
+git checkout -b dev dev                     拉去远程分支到本地
