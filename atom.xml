@@ -5,9 +5,9 @@
   <subtitle>个人博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://SongZhikuan.com/"/>
+  <link href="https://songzhikuan.gitee.io/songzhikuan.github.io/"/>
   <updated>2018-10-02T16:42:51.730Z</updated>
-  <id>https://SongZhikuan.com/</id>
+  <id>https://songzhikuan.gitee.io/songzhikuan.github.io/</id>
   
   <author>
     <name>宋志宽</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Git相关命令</title>
-    <link href="https://SongZhikuan.com/2018/10/02/GitOrder/"/>
-    <id>https://SongZhikuan.com/2018/10/02/GitOrder/</id>
+    <link href="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/GitOrder/"/>
+    <id>https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/GitOrder/</id>
     <published>2018-10-02T05:39:21.000Z</published>
     <updated>2018-10-02T16:42:51.730Z</updated>
     
@@ -29,19 +29,19 @@
     
     </summary>
     
-      <category term="Git" scheme="https://SongZhikuan.com/categories/Git/"/>
+      <category term="Git" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/categories/Git/"/>
     
     
-      <category term="GitHub" scheme="https://SongZhikuan.com/tags/GitHub/"/>
+      <category term="GitHub" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/tags/GitHub/"/>
     
-      <category term="Git" scheme="https://SongZhikuan.com/tags/Git/"/>
+      <category term="Git" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Git使用</title>
-    <link href="https://SongZhikuan.com/2018/10/02/Git/"/>
-    <id>https://SongZhikuan.com/2018/10/02/Git/</id>
+    <link href="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/"/>
+    <id>https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/</id>
     <published>2018-10-02T04:51:28.000Z</published>
     <updated>2018-10-02T14:31:14.714Z</updated>
     
@@ -51,19 +51,19 @@
     
     </summary>
     
-      <category term="Git" scheme="https://SongZhikuan.com/categories/Git/"/>
+      <category term="Git" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/categories/Git/"/>
     
     
-      <category term="GitHub" scheme="https://SongZhikuan.com/tags/GitHub/"/>
+      <category term="GitHub" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/tags/GitHub/"/>
     
-      <category term="Git" scheme="https://SongZhikuan.com/tags/Git/"/>
+      <category term="Git" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>js数组</title>
-    <link href="https://SongZhikuan.com/2018/10/01/jsArray/"/>
-    <id>https://SongZhikuan.com/2018/10/01/jsArray/</id>
+    <link href="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/01/jsArray/"/>
+    <id>https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/01/jsArray/</id>
     <published>2018-10-01T14:06:05.000Z</published>
     <updated>2018-10-02T14:31:14.729Z</updated>
     
@@ -73,14 +73,14 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="https://SongZhikuan.com/categories/JavaScript/"/>
+      <category term="JavaScript" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/categories/JavaScript/"/>
     
     
-      <category term="前端" scheme="https://SongZhikuan.com/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="JavaScript" scheme="https://SongZhikuan.com/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/tags/JavaScript/"/>
     
-      <category term="数组" scheme="https://SongZhikuan.com/tags/%E6%95%B0%E7%BB%84/"/>
+      <category term="数组" scheme="https://songzhikuan.gitee.io/songzhikuan.github.io/tags/%E6%95%B0%E7%BB%84/"/>
     
   </entry>
   
