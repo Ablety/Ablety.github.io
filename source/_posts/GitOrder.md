@@ -62,3 +62,7 @@ git pull                                    从远程抓取分支
 git push origin dev:dev                     推送本地分支到远程
 
 git checkout -b dev dev                     拉去远程分支到本地
+
+git config http.postBuffer 524288000        设置buffer大小为50M
+
+git config --unset user.name                删除用户信息
