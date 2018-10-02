@@ -39,24 +39,6 @@
   </entry>
   
   <entry>
-    <title>Git使用</title>
-    <link href="https://ablety.github.io/2018/10/02/Git/"/>
-    <id>https://ablety.github.io/2018/10/02/Git/</id>
-    <published>2018-10-02T04:51:28.000Z</published>
-    <updated>2018-10-02T11:19:36.522Z</updated>
-    
-    <summary type="html">
-    
-      在软件开发中，在个人或多人协作的时候都用到版本控制系统，首次接触的SVN——集中式版本控制系统，到现在的git--分布式版本控制系统...
-    
-    </summary>
-    
-    
-      <category term="-GitHub -git" scheme="https://ablety.github.io/tags/GitHub-git/"/>
-    
-  </entry>
-  
-  <entry>
     <title>js数组</title>
     <link href="https://ablety.github.io/2018/10/01/jsArray/"/>
     <id>https://ablety.github.io/2018/10/01/jsArray/</id>
