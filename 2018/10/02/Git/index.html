@@ -112,18 +112,18 @@
 <meta name="keywords" content="GitHub,Git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git使用">
-<meta property="og:url" content="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/index.html">
+<meta property="og:url" content="https://songzhikuan.github.io/2018/10/02/Git/index.html">
 <meta property="og:site_name" content="宋志宽">
 <meta property="og:description" content="在软件开发中，在个人或多人协作的时候都用到版本控制系统，首次接触的SVN——集中式版本控制系统，到现在的git--分布式版本控制系统...">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/gitCommit.jpg">
-<meta property="og:image" content="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/conflict.png">
-<meta property="og:image" content="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/fixedConflict.png">
+<meta property="og:image" content="https://songzhikuan.github.io/2018/10/02/Git/gitCommit.jpg">
+<meta property="og:image" content="https://songzhikuan.github.io/2018/10/02/Git/conflict.png">
+<meta property="og:image" content="https://songzhikuan.github.io/2018/10/02/Git/fixedConflict.png">
 <meta property="og:updated_time" content="2018-10-02T14:31:14.714Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git使用">
 <meta name="twitter:description" content="在软件开发中，在个人或多人协作的时候都用到版本控制系统，首次接触的SVN——集中式版本控制系统，到现在的git--分布式版本控制系统...">
-<meta name="twitter:image" content="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/gitCommit.jpg">
+<meta name="twitter:image" content="https://songzhikuan.github.io/2018/10/02/Git/gitCommit.jpg">
 
 
 
@@ -132,7 +132,7 @@
 
 
 
-  <link rel="canonical" href="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/"/>
+  <link rel="canonical" href="https://songzhikuan.github.io/2018/10/02/Git/"/>
 
 
 
@@ -346,7 +346,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://songzhikuan.gitee.io/songzhikuan.github.io/2018/10/02/Git/">
+    <link itemprop="mainEntityOfPage" href="https://songzhikuan.github.io/2018/10/02/Git/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="宋志宽">
@@ -465,7 +465,7 @@
 </ol>
 <h3 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h3><h4 id="返回上一个版本"><a href="#返回上一个版本" class="headerlink" title="返回上一个版本"></a>返回上一个版本</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git reset --hard HEAD^</span><br></pre></td></tr></table></figure>
 <h4 id="返回指定版本"><a href="#返回指定版本" class="headerlink" title="返回指定版本"></a>返回指定版本</h4><p>使用git log 或者 git reflog 查看版本号，根据版本号返回到指定版本<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git reset --hard 1094a</span><br></pre></td></tr></table></figure></p>
-<h3 id="Git提交原理"><a href="#Git提交原理" class="headerlink" title="Git提交原理"></a>Git提交原理</h3><p>直接上图<br><img src="/songzhikuan.github.io/2018/10/02/Git/gitCommit.jpg" alt="原理图"></p>
+<h3 id="Git提交原理"><a href="#Git提交原理" class="headerlink" title="Git提交原理"></a>Git提交原理</h3><p>直接上图<br><img src="/2018/10/02/Git/gitCommit.jpg" alt="原理图"></p>
 <h3 id="撤销"><a href="#撤销" class="headerlink" title="撤销"></a>撤销</h3><p>撤销工作区到最近一次commit或add的状态<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git checkout --&lt;file&gt;</span><br></pre></td></tr></table></figure></p>
 <p>如果已经add到暂存区，想要撤销暂存区的修改,<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git reset HEAD &lt;file&gt;</span><br></pre></td></tr></table></figure></p>
 <p>使用场景</p>
@@ -490,8 +490,8 @@
 <p>查看当前分支<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> branch</span><br></pre></td></tr></table></figure></p>
 <p>合并dev分支的内容到当前分支上<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> merge dev</span><br></pre></td></tr></table></figure></p>
 <p>删除分支dev<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$git</span> branch -d dev</span><br></pre></td></tr></table></figure></p>
-<h4 id="分支冲突"><a href="#分支冲突" class="headerlink" title="分支冲突"></a>分支冲突</h4><p>master、dev两分支都对README.md文件做了修改并提交到版本库中，分支合并会产生冲突，<br><img src="/songzhikuan.github.io/2018/10/02/Git/conflict.png" alt="分支提交"></p>
-<p>手动修改冲突文件README.md,add、commit后合并成功<br><img src="/songzhikuan.github.io/2018/10/02/Git/fixedConflict.png" alt="合并成功"></p>
+<h4 id="分支冲突"><a href="#分支冲突" class="headerlink" title="分支冲突"></a>分支冲突</h4><p>master、dev两分支都对README.md文件做了修改并提交到版本库中，分支合并会产生冲突，<br><img src="/2018/10/02/Git/conflict.png" alt="分支提交"></p>
+<p>手动修改冲突文件README.md,add、commit后合并成功<br><img src="/2018/10/02/Git/fixedConflict.png" alt="合并成功"></p>
 <p>此过程中使用git log查看详细信息</p>
 <h4 id="分支管理-1"><a href="#分支管理-1" class="headerlink" title="分支管理"></a>分支管理</h4><p>master作为发布稳定版本的分支，dev作为开发分支</p>
 <p>准备合并dev分支，请注意–no-ff参数，表示禁用Fast forward：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git merge --no-ff -m <span class="string">"merge with no-ff"</span> dev</span><br></pre></td></tr></table></figure></p>
