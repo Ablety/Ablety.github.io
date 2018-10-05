@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CSS基础]]></title>
+    <url>%2F2018%2F10%2F05%2FCss%2F</url>
+    <content type="text"><![CDATA[布局input标签和span标签一行显示盒子宽度已知，要求span标签和input标签加起来的宽度等于盒子的宽度 给span标签和input标签严格定义宽度，如span 30，input 70， 不要span标签，使用伪类：before，使用绝对布局，input设置相应的marginLeft值harmony123456789101112131415161718192021// jsx &lt;div style=&#123;Styles.item&#125; className=" infoItem userName" onClick=&#123;()=&gt;this.onClick(&#123;type:'userName',com:this.userNameInputCom&#125;)&#125;&gt; &lt;input ref=&#123;com=&gt;this.userNameInputCom=com&#125; onChange=&#123;()=&gt;this.userNameChange(&#123;userNameCom:this.userNameInputCom,passwordCom:this.passwordInputCom&#125;)&#125; /&gt; &lt;/div&gt; const Styles = &#123; wrap: &#123; paddingTop: 30, paddingBottom: 30, paddingLeft: 40, paddingRight: 40, display:'inline-block' &#125;, item:&#123; borderBottom:'1px solid lightgray', position:'relative', paddingTop:'1.5rem', paddingLeft:'3.2rem', paddingBottom:'.5rem' &#125; &#125;; 12345678910111213/*css*/.infoItem:before&#123; content:''; position:absolute; left:1rem; top:1.5rem;&#125;.userName:before&#123; content:'账号';&#125; .password:before&#123; content:'密码'; &#125; 盒子高度未知，盒子垂直居中目前没有好的方法，使用chrome开发者工具查看盒子的高度，用js获取屏幕当前的高度减去盒子高度的一半作为盒子的上外边距，或者干脆就是用百分比估计一个一个的试。 蒙层定义一个同级的空盒子，使用绝对布局，上下左右边距为0，设置透明度，调整zIndex值123456789mask: &#123; position: 'absolute', top: '0', left: '0', right: '0', bottom: '0', background: 'rgba(0, 0, 0, 0.6)', zIndex: '2', &#125;,]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Git相关命令]]></title>
     <url>%2F2018%2F10%2F02%2FGitOrder%2F</url>
     <content type="text"><![CDATA[git config –list 查看配置 git config user.name 修改用户信息 git remote set-url 修改远程仓库地址 git add 向仓库中添加文件 git commit -m 向仓库中提交文件 git status 查看当前仓库状态 git diff 查看文件前后修改内容 git log 从近到远的提交日志 git reflog 查看命令日志 git reset –hard HEAD^ 回退到上一个版本 git reset –hard HEAD~1 回退到上一个版本 git checkout – 撤销修改 git checkout -b dev 创建dev分支并切换到dev分支 git branch dev 创建dev分支 git checkout dev 切换到dev分支 git branch 查看当前分支 git merge dev 合并dev分支的内容到当前分支上 git branch -d dev 删除分支dev git rm 删除版本库中的文件 git remote add origin git@GitHub.com:SongZhikuan/SongZhikuan.GitHub.io.git 远程仓库连接 git push origin master 推送到远程仓库 git clone git@github.com:SongZhikuan/SongZhikuan.github.io.git 克隆远程仓库到本地 git remote -v 查看远程仓库信息 git checkout -b branch-name origin/branch-name 本地创建和远程分支对应的分支 git branch –set-upstream branch-name origin/branch-name 建立本地分支和远程分支的关联 git pull 从远程抓取分支 git push origin dev:dev 推送本地分支到远程 git checkout -b dev dev 拉去远程分支到本地 git config http.postBuffer 524288000 设置buffer大小为50M git config –unset user.name 删除用户信息]]></content>
