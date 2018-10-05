@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://songzhikuan.github.io/"/>
-  <updated>2018-10-05T15:23:14.822Z</updated>
+  <updated>2018-10-05T15:47:01.971Z</updated>
   <id>https://songzhikuan.github.io/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="https://songzhikuan.github.io/2018/10/05/Css/"/>
     <id>https://songzhikuan.github.io/2018/10/05/Css/</id>
     <published>2018-10-05T14:47:54.000Z</published>
-    <updated>2018-10-05T15:23:14.822Z</updated>
+    <updated>2018-10-05T15:47:01.971Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h3 id=&quot;布局&quot;&gt;&lt;a href=&quot;#布局&quot; class=&quot;headerlink&quot; title=&quot;布局&quot;&gt;&lt;/a&gt;布局&lt;/h3&gt;&lt;h4 id=&quot;input标签和span标签一行显示&quot;&gt;&lt;a href=&quot;#input标签和span标签一行显示&quot;
-        
-      
+      &lt;h3 id=&quot;布局&quot;&gt;&lt;a href=&quot;#布局&quot; class=&quot;headerlink&quot; title=&quot;布局&quot;&gt;&lt;/a&gt;布局&lt;/h3&gt;&lt;h4 id=&quot;input标签和span标签一行显示&quot;&gt;&lt;a href=&quot;#input标签和span标签一行显示&quot; class=&quot;headerlink&quot; title=&quot;input标签和span标签一行显示&quot;&gt;&lt;/a&gt;input标签和span标签一行显示&lt;/h4&gt;&lt;p&gt;盒子宽度已知，要求span标签和input标签加起来的宽度等于盒子的宽度&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
