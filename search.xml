@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[20181007]]></title>
+    <url>%2F2018%2F10%2F07%2F20181007%2F</url>
+    <content type="text"><![CDATA[读阮老师网站感想今天打开了阮一峰老师的网站，初略看了一些内容，大受鼓舞，直到现在编写blog的时候内心都未完全平静下来。 一直以来，都想记录一点关于自己在任何时候的想法，但前方路途的迷茫、个人意志的不坚定让这件事搁置到前段时间才开始实施（初步建立个人网站，目前只链接了blog），今天看了阮老师的网站更坚定了要为自己记点东西。]]></content>
+      <categories>
+        <category>观点和感想</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[CSS基础]]></title>
     <url>%2F2018%2F10%2F05%2FCss%2F</url>
     <content type="text"><![CDATA[布局input标签和span标签一行显示盒子宽度已知，要求span标签和input标签加起来的宽度等于盒子的宽度 给span标签和input标签严格定义宽度，如span 30，input 70， 不要span标签，使用伪类：before，使用绝对布局，input设置相应的marginLeft值harmony123456789101112131415161718192021// jsx &lt;div style=&#123;Styles.item&#125; className=" infoItem userName" onClick=&#123;()=&gt;this.onClick(&#123;type:'userName',com:this.userNameInputCom&#125;)&#125;&gt; &lt;input ref=&#123;com=&gt;this.userNameInputCom=com&#125; onChange=&#123;()=&gt;this.userNameChange(&#123;userNameCom:this.userNameInputCom,passwordCom:this.passwordInputCom&#125;)&#125; /&gt; &lt;/div&gt; const Styles = &#123; wrap: &#123; paddingTop: 30, paddingBottom: 30, paddingLeft: 40, paddingRight: 40, display:'inline-block' &#125;, item:&#123; borderBottom:'1px solid lightgray', position:'relative', paddingTop:'1.5rem', paddingLeft:'3.2rem', paddingBottom:'.5rem' &#125; &#125;; 12345678910111213/*css*/.infoItem:before&#123; content:''; position:absolute; left:1rem; top:1.5rem;&#125;.userName:before&#123; content:'账号';&#125; .password:before&#123; content:'密码'; &#125; 盒子高度未知，盒子垂直居中目前没有好的方法，使用chrome开发者工具查看盒子的高度，用js获取屏幕当前的高度减去盒子高度的一半作为盒子的上外边距，或者干脆就是用百分比估计一个一个的试。 蒙层定义一个同级的空盒子，使用绝对布局，上下左右边距为0，设置透明度，调整zIndex值123456789mask: &#123; position: 'absolute', top: '0', left: '0', right: '0', bottom: '0', background: 'rgba(0, 0, 0, 0.6)', zIndex: '2', &#125;,]]></content>
