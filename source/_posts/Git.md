@@ -72,7 +72,7 @@ $ git reset --hard 1094a
 ```
 ### Git提交原理
 直接上图
-![原理图](Git/gitCommit.jpg)
+![原理图](http://pga6xqrjk.bkt.clouddn.com/blog/gitCommit.jpg)
 
 ### 撤销
 撤销工作区到最近一次commit或add的状态
@@ -156,10 +156,10 @@ $git branch -d dev
 #### 分支冲突
 
 master、dev两分支都对README.md文件做了修改并提交到版本库中，分支合并会产生冲突，
-![分支提交](Git/conflict.png)
+![分支提交](http://pga6xqrjk.bkt.clouddn.com/blog/conflict.png)
 
 手动修改冲突文件README.md,add、commit后合并成功
-![合并成功](Git/fixedConflict.png)
+![合并成功](http://pga6xqrjk.bkt.clouddn.com/blog/fixedConflict.png)
 
 此过程中使用git log查看详细信息
 

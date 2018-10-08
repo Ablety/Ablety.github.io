@@ -54,6 +54,22 @@ description:
 #### 盒子高度未知，盒子垂直居中
 目前没有好的方法，使用chrome开发者工具查看盒子的高度，用js获取屏幕当前的高度减去盒子高度的一半作为盒子的上外边距，或者干脆就是用百分比估计一个一个的试。
 
+2018-10-08 补充
+
+自适应垂直居中,绝对定位+auto，效果图：
+
+![img](http://pga6xqrjk.bkt.clouddn.com/blog/blog_jietu1.png)
+```css
+ img.portrait{
+     position:absolute;
+     left:0;
+     right:0;
+     top:0;
+     bottom:0;
+     margin:auto;
+ }
+```
+
 #### 蒙层
 定义一个同级的空盒子，使用绝对布局，上下左右边距为0，设置透明度，调整zIndex值
 ```jsx 
