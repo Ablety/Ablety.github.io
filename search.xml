@@ -1,9 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[20181007]]></title>
+    <title><![CDATA[h5开发问题集]]></title>
+    <url>%2F2018%2F10%2F11%2F20181011%2F</url>
+    <content type="text"><![CDATA[键盘遮挡input（android浏览器） 1234567891011121314151617181920/** * *@Title: inputMode *@Params: *@Description: android 键盘弹起会遮住input标签 *@return */ function inputMode()&#123; var systemType = api.systemType; if (systemType == "android") &#123; onresize = function() &#123; if(document.activeElement.tagName=="INPUT" ) &#123; window.setTimeout(function() &#123; document.activeElement.scrollIntoViewIfNeeded(); &#125;,0); &#125; &#125; &#125; &#125; 视频播放状态栏隐藏解决思路：播放页进入全屏状态，apicloud案例1234/*全屏隐藏状态栏*/api.setFullScreen(&#123; fullScreen: true&#125;);]]></content>
+      <categories>
+        <category>h5</category>
+      </categories>
+      <tags>
+        <tag>h5</tag>
+        <tag>移动端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[正则表达式]]></title>
+    <url>%2F2018%2F10%2F10%2F20181010%2F</url>
+    <content type="text"><![CDATA[新建正则对象 123const regex = /xyz/;// 或者const regex = new RegExp('xyz'); 修饰符 i:ignoreCase,忽略大小写 g:global,全局搜索 m:multiline1const regex = /xyz/gim; 匹配规则]]></content>
+      <categories>
+        <category>正则表达式</category>
+      </categories>
+      <tags>
+        <tag>正则</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[h5基础回顾]]></title>
+    <url>%2F2018%2F10%2F09%2F20181009%2F</url>
+    <content type="text"><![CDATA[\、\和\标记的用法定义：\、\和\是组合标签，dl是父标签，dt、dd为子标签且dt与dd同级不能相互嵌套用法： 标题+列表 123456789101112131415161718192021&lt;dl&gt; &lt;dt&gt;Firefox&lt;/dt&gt; &lt;dd&gt;A free, open source, cross-platform, graphical web browser developed by the Mozilla Corporation and hundreds of volunteers.&lt;/dd&gt; &lt;style&gt; &#123;` dt&#123; background: #5f9be3; color:#fff; float:left; //脱离文档 font-weight:bold; margin-right:10px; padding:5px; width:100px; &#125; dd&#123; margin-left: 2em; padding: 5px 0; &#125; `&#125; &lt;/style&gt;&lt;/dl&gt;]]></content>
+      <categories>
+        <category>Css</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[读阮老师网站感想]]></title>
     <url>%2F2018%2F10%2F07%2F20181007%2F</url>
-    <content type="text"><![CDATA[读阮老师网站感想今天打开了阮一峰老师的网站，初略看了一些内容，大受鼓舞，直到现在编写blog的时候内心都未完全平静下来。 一直以来，都想记录一点关于自己在任何时候的想法，但前方路途的迷茫、个人意志的不坚定让这件事搁置到前段时间才开始实施（初步建立个人网站，目前只链接了blog），今天看了阮老师的网站更坚定了要为自己记点东西。]]></content>
+    <content type="text"><![CDATA[正文今天打开了阮一峰老师的网站，初略看了一些内容，大受鼓舞，直到现在编写blog的时候内心都未完全平静下来。 一直以来，都想记录一点关于自己在任何时候的想法，但前方路途的迷茫、个人意志的不坚定让这件事搁置到前段时间才开始实施（初步建立个人网站，目前只链接了blog），今天看了阮老师的网站更坚定了要为自己记点东西。]]></content>
       <categories>
         <category>观点和感想</category>
       </categories>
@@ -11,12 +45,12 @@
   <entry>
     <title><![CDATA[CSS基础]]></title>
     <url>%2F2018%2F10%2F05%2FCss%2F</url>
-    <content type="text"><![CDATA[布局input标签和span标签一行显示盒子宽度已知，要求span标签和input标签加起来的宽度等于盒子的宽度 给span标签和input标签严格定义宽度，如span 30，input 70， 不要span标签，使用伪类：before，使用绝对布局，input设置相应的marginLeft值harmony123456789101112131415161718192021// jsx &lt;div style=&#123;Styles.item&#125; className=" infoItem userName" onClick=&#123;()=&gt;this.onClick(&#123;type:'userName',com:this.userNameInputCom&#125;)&#125;&gt; &lt;input ref=&#123;com=&gt;this.userNameInputCom=com&#125; onChange=&#123;()=&gt;this.userNameChange(&#123;userNameCom:this.userNameInputCom,passwordCom:this.passwordInputCom&#125;)&#125; /&gt; &lt;/div&gt; const Styles = &#123; wrap: &#123; paddingTop: 30, paddingBottom: 30, paddingLeft: 40, paddingRight: 40, display:'inline-block' &#125;, item:&#123; borderBottom:'1px solid lightgray', position:'relative', paddingTop:'1.5rem', paddingLeft:'3.2rem', paddingBottom:'.5rem' &#125; &#125;; 12345678910111213/*css*/.infoItem:before&#123; content:''; position:absolute; left:1rem; top:1.5rem;&#125;.userName:before&#123; content:'账号';&#125; .password:before&#123; content:'密码'; &#125; 盒子高度未知，盒子垂直居中目前没有好的方法，使用chrome开发者工具查看盒子的高度，用js获取屏幕当前的高度减去盒子高度的一半作为盒子的上外边距，或者干脆就是用百分比估计一个一个的试。 2018-10-08 补充 自适应垂直居中,绝对定位+auto，效果图： 12345678img.portrait&#123; position:absolute; left:0; right:0; top:0; bottom:0; margin:auto;&#125; 蒙层定义一个同级的空盒子，使用绝对布局，上下左右边距为0，设置透明度，调整zIndex值123456789mask: &#123; position: 'absolute', top: '0', left: '0', right: '0', bottom: '0', background: 'rgba(0, 0, 0, 0.6)', zIndex: '2', &#125;,]]></content>
+    <content type="text"><![CDATA[布局input标签和span标签一行显示盒子宽度已知，要求span标签和input标签加起来的宽度等于盒子的宽度 给span标签和input标签严格定义宽度，如span 30，input 70， 不要span标签，使用伪类：before，使用绝对布局，input设置相应的marginLeft值harmony123456789101112131415161718192021// jsx &lt;div style=&#123;Styles.item&#125; className=" infoItem userName" onClick=&#123;()=&gt;this.onClick(&#123;type:'userName',com:this.userNameInputCom&#125;)&#125;&gt; &lt;input ref=&#123;com=&gt;this.userNameInputCom=com&#125; onChange=&#123;()=&gt;this.userNameChange(&#123;userNameCom:this.userNameInputCom,passwordCom:this.passwordInputCom&#125;)&#125; /&gt; &lt;/div&gt; const Styles = &#123; wrap: &#123; paddingTop: 30, paddingBottom: 30, paddingLeft: 40, paddingRight: 40, display:'inline-block' &#125;, item:&#123; borderBottom:'1px solid lightgray', position:'relative', paddingTop:'1.5rem', paddingLeft:'3.2rem', paddingBottom:'.5rem' &#125; &#125;; 12345678910111213/*css*/.infoItem:before&#123; content:''; position:absolute; left:1rem; top:1.5rem;&#125;.userName:before&#123; content:'账号';&#125; .password:before&#123; content:'密码'; &#125; 盒子高度未知，盒子垂直居中目前没有好的方法，使用chrome开发者工具查看盒子的高度，用js获取屏幕当前的高度减去盒子高度的一半作为盒子的上外边距，或者干脆就是用百分比估计一个一个的试。 2018-10-08 补充 自适应垂直居中,绝对定位+auto，效果图： 123456789101112131415img.portrait&#123; position:absolute; left:0; right:0; top:0; bottom:0; margin:auto;&#125;/*或者*/ img.portrait&#123; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);//本身的一半 &#125; 蒙层定义一个同级的空盒子，使用绝对布局，上下左右边距为0，设置透明度，调整zIndex值123456789mask: &#123; position: 'absolute', top: '0', left: '0', right: '0', bottom: '0', background: 'rgba(0, 0, 0, 0.6)', zIndex: '2', &#125;,]]></content>
       <categories>
-        <category>css</category>
+        <category>Css</category>
       </categories>
       <tags>
-        <tag>css</tag>
+        <tag>Css</tag>
       </tags>
   </entry>
   <entry>
