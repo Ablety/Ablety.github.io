@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[20181113]]></title>
+    <url>%2F2018%2F11%2F13%2F20181113%2F</url>
+    <content type="text"><![CDATA[####主动触发事件1234567891011121314componentDidMount() &#123; let t = setTimeout(() =&gt; &#123; if (document.createEvent) &#123; console.log('dispatch ... '); const event = document.createEvent('HTMLEvents'); event.initEvent('resize', true, true);//触发resize事件 window.dispatchEvent(event); &#125; else if (document.createEventObject) &#123; document.fireEvent('resize'); &#125; clearTimeout(t); &#125;, 0); &#125;]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>javascript</tag>
+        <tag>浏览器事件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[h5开发问题集]]></title>
     <url>%2F2018%2F10%2F11%2F20181011%2F</url>
     <content type="text"><![CDATA[键盘遮挡input（android浏览器） 1234567891011121314151617181920/** * *@Title: inputMode *@Params: *@Description: android 键盘弹起会遮住input标签 *@return */ function inputMode()&#123; var systemType = api.systemType; if (systemType == "android") &#123; onresize = function() &#123; if(document.activeElement.tagName=="INPUT" ) &#123; window.setTimeout(function() &#123; document.activeElement.scrollIntoViewIfNeeded(); &#125;,0); &#125; &#125; &#125; &#125; 视频播放状态栏隐藏解决思路：播放页进入全屏状态，apicloud案例1234/*全屏隐藏状态栏*/api.setFullScreen(&#123; fullScreen: true&#125;);]]></content>
