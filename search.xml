@@ -26,7 +26,7 @@
   <entry>
     <title><![CDATA[h5基础回顾]]></title>
     <url>%2F2018%2F10%2F09%2F20181009%2F</url>
-    <content type="text"><![CDATA[\、\和\标记的用法定义：\、\和\是组合标签，dl是父标签，dt、dd为子标签且dt与dd同级不能相互嵌套用法： 标题+列表 123456789101112131415161718192021&lt;dl&gt; &lt;dt&gt;Firefox&lt;/dt&gt; &lt;dd&gt;A free, open source, cross-platform, graphical web browser developed by the Mozilla Corporation and hundreds of volunteers.&lt;/dd&gt; &lt;style&gt; &#123;` dt&#123; background: #5f9be3; color:#fff; float:left; //脱离文档 font-weight:bold; margin-right:10px; padding:5px; width:100px; &#125; dd&#123; margin-left: 2em; padding: 5px 0; &#125; `&#125; &lt;/style&gt;&lt;/dl&gt;]]></content>
+    <content type="text"><![CDATA[、和标记的用法定义：、和是组合标签，dl是父标签，dt、dd为子标签且dt与dd同级不能相互嵌套用法： 标题+列表 123456789101112131415161718192021&lt;dl&gt; &lt;dt&gt;Firefox&lt;/dt&gt; &lt;dd&gt;A free, open source, cross-platform, graphical web browser developed by the Mozilla Corporation and hundreds of volunteers.&lt;/dd&gt; &lt;style&gt; &#123;` dt&#123; background: #5f9be3; color:#fff; float:left; //脱离文档 font-weight:bold; margin-right:10px; padding:5px; width:100px; &#125; dd&#123; margin-left: 2em; padding: 5px 0; &#125; `&#125; &lt;/style&gt;&lt;/dl&gt;]]></content>
       <categories>
         <category>Css</category>
       </categories>

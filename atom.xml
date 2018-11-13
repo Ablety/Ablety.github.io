@@ -63,11 +63,11 @@
     <link href="https://songzhikuan.github.io/2018/10/09/20181009/"/>
     <id>https://songzhikuan.github.io/2018/10/09/20181009/</id>
     <published>2018-10-09T07:30:41.000Z</published>
-    <updated>2018-11-13T08:16:37.013Z</updated>
+    <updated>2018-11-13T08:24:11.828Z</updated>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;、-和-标记的用法&quot;&gt;&lt;a href=&quot;#、-和-标记的用法&quot; class=&quot;headerlink&quot; title=&quot;\、\和\标记的用法&quot;&gt;&lt;/a&gt;\&lt;dl&gt;、\&lt;dt&gt;和\&lt;dd&gt;标记的用法&lt;/dd&gt;&lt;/dt&gt;&lt;/dl&gt;&lt;/h4&gt;&lt;p&gt;&lt;bold&gt;定义&lt;/bold&gt;：\&lt;dl&gt;、\&lt;dt&gt;和\&lt;dd&gt;是组合标签，dl是父标签，dt、dd为子标签且dt与dd同级不能相互嵌套&lt;br&gt;
+      &lt;h4 id=&quot;、和标记的用法&quot;&gt;&lt;a href=&quot;#、和标记的用法&quot; class=&quot;headerlink&quot; title=&quot;、和标记的用法&quot;&gt;&lt;/a&gt;&lt;dl&gt;、&lt;dt&gt;和&lt;dd&gt;标记的用法&lt;/dd&gt;&lt;/dt&gt;&lt;/dl&gt;&lt;/h4&gt;&lt;p&gt;&lt;bold&gt;定义&lt;/bold&gt;：&lt;dl&gt;、&lt;dt&gt;和&lt;dd&gt;是组合标签，dl是父标签，dt、dd为子标签且dt与dd同级不能相互嵌套&lt;br&gt;
     
     </summary>
     
