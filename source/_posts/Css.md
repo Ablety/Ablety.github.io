@@ -2,8 +2,8 @@
 title: CSS基础
 date: 2018-10-05 22:47:54
 tags:
-- css
-categories: css
+- Css
+categories: Css
 description: 
 ---
 ### 布局
@@ -68,6 +68,13 @@ description:
      bottom:0;
      margin:auto;
  }
+ /*或者*/
+  img.portrait{
+      position:absolute;
+      left:50%;
+      top:50%;
+      transform:translate(-50%,-50%);//本身的一半
+  }
 ```
 
 #### 蒙层
