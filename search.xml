@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[20181113]]></title>
-    <url>%2F2018%2F11%2F13%2F20181113%2F</url>
+    <url>%2Fblog%2F2018%2F11%2F13%2F20181113%2F</url>
     <content type="text"><![CDATA[####主动触发事件1234567891011121314componentDidMount() &#123; let t = setTimeout(() =&gt; &#123; if (document.createEvent) &#123; console.log('dispatch ... '); const event = document.createEvent('HTMLEvents'); event.initEvent('resize', true, true);//触发resize事件 window.dispatchEvent(event); &#125; else if (document.createEventObject) &#123; document.fireEvent('resize'); &#125; clearTimeout(t); &#125;, 0); &#125;]]></content>
       <categories>
         <category>JavaScript</category>
@@ -14,7 +14,7 @@
   </entry>
   <entry>
     <title><![CDATA[h5开发问题集]]></title>
-    <url>%2F2018%2F10%2F11%2F20181011%2F</url>
+    <url>%2Fblog%2F2018%2F10%2F11%2F20181011%2F</url>
     <content type="text"><![CDATA[键盘遮挡input（android浏览器） 1234567891011121314151617181920/** * *@Title: inputMode *@Params: *@Description: android 键盘弹起会遮住input标签 *@return */ function inputMode()&#123; var systemType = api.systemType; if (systemType == "android") &#123; onresize = function() &#123; if(document.activeElement.tagName=="INPUT" ) &#123; window.setTimeout(function() &#123; document.activeElement.scrollIntoViewIfNeeded(); &#125;,0); &#125; &#125; &#125; &#125; 视频播放状态栏隐藏解决思路：播放页进入全屏状态，apicloud案例1234/*全屏隐藏状态栏*/api.setFullScreen(&#123; fullScreen: true&#125;);]]></content>
       <categories>
         <category>h5</category>
@@ -26,7 +26,7 @@
   </entry>
   <entry>
     <title><![CDATA[正则表达式]]></title>
-    <url>%2F2018%2F10%2F10%2F20181010%2F</url>
+    <url>%2Fblog%2F2018%2F10%2F10%2F20181010%2F</url>
     <content type="text"><![CDATA[新建正则对象 123const regex = /xyz/;// 或者const regex = new RegExp('xyz'); 修饰符 i:ignoreCase,忽略大小写 g:global,全局搜索 m:multiline1const regex = /xyz/gim; 匹配规则]]></content>
       <categories>
         <category>正则表达式</category>
@@ -37,7 +37,7 @@
   </entry>
   <entry>
     <title><![CDATA[h5基础回顾]]></title>
-    <url>%2F2018%2F10%2F09%2F20181009%2F</url>
+    <url>%2Fblog%2F2018%2F10%2F09%2F20181009%2F</url>
     <content type="text"><![CDATA[、和标记的用法定义：、和是组合标签，dl是父标签，dt、dd为子标签且dt与dd同级不能相互嵌套用法： 标题+列表 123456789101112131415161718192021&lt;dl&gt; &lt;dt&gt;Firefox&lt;/dt&gt; &lt;dd&gt;A free, open source, cross-platform, graphical web browser developed by the Mozilla Corporation and hundreds of volunteers.&lt;/dd&gt; &lt;style&gt; &#123;` dt&#123; background: #5f9be3; color:#fff; float:left; //脱离文档 font-weight:bold; margin-right:10px; padding:5px; width:100px; &#125; dd&#123; margin-left: 2em; padding: 5px 0; &#125; `&#125; &lt;/style&gt;&lt;/dl&gt;]]></content>
       <categories>
         <category>Css</category>
@@ -48,7 +48,7 @@
   </entry>
   <entry>
     <title><![CDATA[读阮老师网站感想]]></title>
-    <url>%2F2018%2F10%2F07%2F20181007%2F</url>
+    <url>%2Fblog%2F2018%2F10%2F07%2F20181007%2F</url>
     <content type="text"><![CDATA[正文今天打开了阮一峰老师的网站，初略看了一些内容，大受鼓舞，直到现在编写blog的时候内心都未完全平静下来。 一直以来，都想记录一点关于自己在任何时候的想法，但前方路途的迷茫、个人意志的不坚定让这件事搁置到前段时间才开始实施（初步建立个人网站，目前只链接了blog），今天看了阮老师的网站更坚定了要为自己记点东西。]]></content>
       <categories>
         <category>观点和感想</category>
@@ -56,7 +56,7 @@
   </entry>
   <entry>
     <title><![CDATA[CSS基础]]></title>
-    <url>%2F2018%2F10%2F05%2FCss%2F</url>
+    <url>%2Fblog%2F2018%2F10%2F05%2FCss%2F</url>
     <content type="text"><![CDATA[布局input标签和span标签一行显示盒子宽度已知，要求span标签和input标签加起来的宽度等于盒子的宽度 给span标签和input标签严格定义宽度，如span 30，input 70， 不要span标签，使用伪类：before，使用绝对布局，input设置相应的marginLeft值harmony123456789101112131415161718192021// jsx &lt;div style=&#123;Styles.item&#125; className=" infoItem userName" onClick=&#123;()=&gt;this.onClick(&#123;type:'userName',com:this.userNameInputCom&#125;)&#125;&gt; &lt;input ref=&#123;com=&gt;this.userNameInputCom=com&#125; onChange=&#123;()=&gt;this.userNameChange(&#123;userNameCom:this.userNameInputCom,passwordCom:this.passwordInputCom&#125;)&#125; /&gt; &lt;/div&gt; const Styles = &#123; wrap: &#123; paddingTop: 30, paddingBottom: 30, paddingLeft: 40, paddingRight: 40, display:'inline-block' &#125;, item:&#123; borderBottom:'1px solid lightgray', position:'relative', paddingTop:'1.5rem', paddingLeft:'3.2rem', paddingBottom:'.5rem' &#125; &#125;; 12345678910111213/*css*/.infoItem:before&#123; content:''; position:absolute; left:1rem; top:1.5rem;&#125;.userName:before&#123; content:'账号';&#125; .password:before&#123; content:'密码'; &#125; 盒子高度未知，盒子垂直居中目前没有好的方法，使用chrome开发者工具查看盒子的高度，用js获取屏幕当前的高度减去盒子高度的一半作为盒子的上外边距，或者干脆就是用百分比估计一个一个的试。 2018-10-08 补充 自适应垂直居中,绝对定位+auto，效果图： 123456789101112131415img.portrait&#123; position:absolute; left:0; right:0; top:0; bottom:0; margin:auto;&#125;/*或者*/ img.portrait&#123; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);//本身的一半 &#125; 蒙层定义一个同级的空盒子，使用绝对布局，上下左右边距为0，设置透明度，调整zIndex值123456789mask: &#123; position: 'absolute', top: '0', left: '0', right: '0', bottom: '0', background: 'rgba(0, 0, 0, 0.6)', zIndex: '2', &#125;,]]></content>
       <categories>
         <category>Css</category>
@@ -67,7 +67,7 @@
   </entry>
   <entry>
     <title><![CDATA[Git相关命令]]></title>
-    <url>%2F2018%2F10%2F02%2FGitOrder%2F</url>
+    <url>%2Fblog%2F2018%2F10%2F02%2FGitOrder%2F</url>
     <content type="text"><![CDATA[git config –list 查看配置 git config user.name 修改用户信息 git remote set-url 修改远程仓库地址 git add 向仓库中添加文件 git commit -m 向仓库中提交文件 git status 查看当前仓库状态 git diff 查看文件前后修改内容 git log 从近到远的提交日志 git reflog 查看命令日志 git reset –hard HEAD^ 回退到上一个版本 git reset –hard HEAD~1 回退到上一个版本 git checkout – 撤销修改 git checkout -b dev 创建dev分支并切换到dev分支 git branch dev 创建dev分支 git checkout dev 切换到dev分支 git branch 查看当前分支 git merge dev 合并dev分支的内容到当前分支上 git branch -d dev 删除分支dev git rm 删除版本库中的文件 git remote add origin git@GitHub.com:SongZhikuan/SongZhikuan.GitHub.io.git 远程仓库连接 git push origin master 推送到远程仓库 git clone git@github.com:SongZhikuan/SongZhikuan.github.io.git 克隆远程仓库到本地 git remote -v 查看远程仓库信息 git checkout -b branch-name origin/branch-name 本地创建和远程分支对应的分支 git branch –set-upstream branch-name origin/branch-name 建立本地分支和远程分支的关联 git pull 从远程抓取分支 git push origin dev:dev 推送本地分支到远程 git checkout -b dev dev 拉去远程分支到本地 git config http.postBuffer 524288000 设置buffer大小为50M git config –unset user.name 删除用户信息]]></content>
       <categories>
         <category>Git</category>
@@ -79,7 +79,7 @@
   </entry>
   <entry>
     <title><![CDATA[Git使用]]></title>
-    <url>%2F2018%2F10%2F02%2FGit%2F</url>
+    <url>%2Fblog%2F2018%2F10%2F02%2FGit%2F</url>
     <content type="text"><![CDATA[回顾一直以来都有使用版本控制系统，但对其使用仅仅有限几个命令，常常需要去google、百度，趁国庆黄金周做点git的使用笔记，方法以后来查阅 安装windows安装，安装地址,安装完成后鼠标右键看到有Git Bash说明安装成功。安装成功后配置用户名和邮箱地址12git config --global user.name "your name"git config --global user.email "you email" 注意 –global代表全局，当前设置环境是全局环境 创建版本库创建文件夹，123$ mkdir GitHub$ cd GitHub$ git init 这样文件夹下有.git 文件夹，这是Git用来跟踪管理仓库的，没事不要动这个文件 创建文件Mycom.js，并编写内容1234567891011121314151617export default class MyCom extends React.Component&#123; constructor(props)&#123; super(props); this.state=&#123; count:0, content:'this is a test page!' &#125; &#125; reder()&#123; const &#123;content&#125;=this.state; return ( &lt;div&gt; &#123;content&#125; &lt;/div&gt; ) &#125;&#125; 添加文件到仓库 1$ git add Mycom.js 添加文件到仓库 1$ git commit -m "新增MyCom文件" -m后面跟本次提交说明，易于阅读和版本回退参照 修改文件提交流程也是两步走，add+commit，与新增文件一样 版本回退返回上一个版本1$ git reset --hard HEAD^ 返回指定版本使用git log 或者 git reflog 查看版本号，根据版本号返回到指定版本1$ git reset --hard 1094a Git提交原理直接上图 撤销撤销工作区到最近一次commit或add的状态1$ git checkout --&lt;file&gt; 如果已经add到暂存区，想要撤销暂存区的修改,1$ git reset HEAD &lt;file&gt; 使用场景 工作区修改后没有添加到暂存区，想放弃工作区的修改，使用命令git checkout – 工作区已经修改，并提交到暂存区,想放弃修改，分两步走，首先使用命令git reset HEAD 回到到场景一，之后按照场景一操作 已经提交了不合适的修改到版本库，并没有推送到远程仓库，想要撤销本次修改，使用git reset –hard HEAD^回退到上一个版本 删除删除工作区文件1$rm &lt;file&gt; 删除版本库文件1$git rm &lt;file&gt; 工作区错删文件，从版本库还原1$git checkout --&lt;file&gt; 远程仓库Git是分布式版本控制系统，克隆在多台机器上的仓库没有主次之分。要使用远程仓库，首先，在GitHub上创建账号。其次，创建SSH Key 1$ssh-keygen -t rsa -C "youremail@example.com" 电脑用户目录下会生成.ssh目录，里面有id_rsa和id_rsa.pub两文件,这是SSH Key的密钥对,id_rsa是私钥，id_rsa.pub是公钥可以给别人用。最后登录GitHub账号，打开Account setting，SSH Keys页面，Add SSH Key ，填上任意的title,key文本框中粘上id_rsa.pub中的内容。提供SSH Key可以让GitHub识别你的电脑确认是你自己推送的内容，而不是别人冒充的，SSH Key可以有多个，让你可以在多台电脑上推送代码（公司、自家屋子里），就问贴不贴心😗。 添加远程仓库GitHub上创建一个仓库，本地仓库中使用命令连接远程仓库1$git remote add origin git@GitHub.com:SongZhikuan/SongZhikuan.GitHub.io.git SongZhikuan是我的GitHub账号,远程库的名字就叫origin，这个名字可以改但一般情况下没有改的必要，origin一看就是远程库，简单明了。 推送当前分支master到远程仓库1$git push -u origin master 由于是第一次master分支，加上了-u的参数，Git不但会把本地master分支的内容推送到远程新的master分支上，还会把本地master分支和远程master分支关联起来，在以后的推送和拉取中可以简化命令1$git push origin master 分支管理创建dev分支并切换到dev分支1$git checkout -b dev 创建dev分支1$git git branch dev 切换到dev分支1$git checkout dev 查看当前分支1$git branch 合并dev分支的内容到当前分支上1$git merge dev 删除分支dev1$git branch -d dev 分支冲突master、dev两分支都对README.md文件做了修改并提交到版本库中，分支合并会产生冲突， 手动修改冲突文件README.md,add、commit后合并成功 此过程中使用git log查看详细信息 分支管理master作为发布稳定版本的分支，dev作为开发分支 准备合并dev分支，请注意–no-ff参数，表示禁用Fast forward：1$ git merge --no-ff -m "merge with no-ff" dev 因为本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去。]]></content>
       <categories>
         <category>Git</category>
@@ -91,7 +91,7 @@
   </entry>
   <entry>
     <title><![CDATA[js数组]]></title>
-    <url>%2F2018%2F10%2F01%2FjsArray%2F</url>
+    <url>%2Fblog%2F2018%2F10%2F01%2FjsArray%2F</url>
     <content type="text"><![CDATA[数组本身是对象数组是一段线性分配的内存，通过整数去计算偏移量去访问其中元素。数组可以是很快的数据结构，不幸的是javascript并没有这种像数组一样的数据结构，而是提供了一种类数组特性的特殊对象，它把数组下标转成字符串，用作其属性。属性的检索和更新可以像对象一样一样的，除了有一个可以用整数作为属性名的特性外。 数组可以包含任意混合类型的值在大多数语言中，一个数组要求其所有元素都是相同的类型，而javascript则不然，它允许数组包含任意混合类型的值。 1let misc=['s',10,&#123;name:'demo'&#125;,undefined]; 数组长度不是定值每个数组都有一个length属性，和大多数其它语言不同，javaScript数组的length是没有上限的，使用大于和等于当前length的数字来做下标来保存一个元素，那么length将增大来容纳新的元素，不会发生边界错误。length属性的值是这个数组最大整数属性名上加上1，它不一定等于数组的属性的个数。12let arr = [];//arr.length = 0arr[10000]=true;//arr.length = 10001,arr仅包含一个元素 可以设置length的值，设置更大的值无须给数组分配更多的内存，设置小会删除大于等于length的属性。123let arr = ['aaa','sss','ddd','fff','ggg']; //arr = ['aaa','sss','ddd','fff','ggg']arr.length=3; //arr = ['aaa','sss','ddd']arr[3] = 'qqq'; //arr = ['aaa','sss','ddd','qqq'] 温馨提示：arr[arr.length]=’bbb’与arr.push(‘bbb)结果一样 删除元素delete运算符可以删除数组中的元素，由于数组也是对象。删除的结果是数组中遗留一个空洞，这是因为被删除元素之后的的元素保留了他们最初的下标。javaScript提供了splice方法，删除一些元素并将它们替换为其它元素。splice（param1,param2,…）,第一个参数为序号，第二个参数为要删除的个数，其它的参数会在序号那个点被插入到数组。splice的执行过程是：删除指定元素 -&gt; 移除之后的所有元素并以新的键值重新插入，在大型数组操作中属性删除效率不高。 枚举元素可以像对象一样的用for in来遍历数组的所有属性，没法保证属性的顺序以及可能来自原型链上的属性。使用常规for语句可以规避此类问题。]]></content>
       <categories>
         <category>JavaScript</category>

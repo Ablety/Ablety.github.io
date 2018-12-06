@@ -3,11 +3,11 @@
   <title>宋志宽</title>
   
   <subtitle>个人博客</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="https://songzhikuan.github.io/"/>
+  <link href="https://songzhikuan/"/>
   <updated>2018-11-13T08:27:58.531Z</updated>
-  <id>https://songzhikuan.github.io/</id>
+  <id>https://songzhikuan/</id>
   
   <author>
     <name>宋志宽</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>20181113</title>
-    <link href="https://songzhikuan.github.io/2018/11/13/20181113/"/>
-    <id>https://songzhikuan.github.io/2018/11/13/20181113/</id>
+    <link href="https://songzhikuan/2018/11/13/20181113/"/>
+    <id>https://songzhikuan/2018/11/13/20181113/</id>
     <published>2018-11-13T07:49:22.000Z</published>
     <updated>2018-11-13T08:27:58.531Z</updated>
     
@@ -29,19 +29,19 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="https://songzhikuan.github.io/categories/JavaScript/"/>
+      <category term="JavaScript" scheme="https://songzhikuan/categories/JavaScript/"/>
     
     
-      <category term="javascript" scheme="https://songzhikuan.github.io/tags/javascript/"/>
+      <category term="javascript" scheme="https://songzhikuan/tags/javascript/"/>
     
-      <category term="浏览器事件" scheme="https://songzhikuan.github.io/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BA%8B%E4%BB%B6/"/>
+      <category term="浏览器事件" scheme="https://songzhikuan/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BA%8B%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>h5开发问题集</title>
-    <link href="https://songzhikuan.github.io/2018/10/11/20181011/"/>
-    <id>https://songzhikuan.github.io/2018/10/11/20181011/</id>
+    <link href="https://songzhikuan/2018/10/11/20181011/"/>
+    <id>https://songzhikuan/2018/10/11/20181011/</id>
     <published>2018-10-11T13:08:37.000Z</published>
     <updated>2018-11-13T08:16:37.018Z</updated>
     
@@ -51,19 +51,19 @@
     
     </summary>
     
-      <category term="h5" scheme="https://songzhikuan.github.io/categories/h5/"/>
+      <category term="h5" scheme="https://songzhikuan/categories/h5/"/>
     
     
-      <category term="h5" scheme="https://songzhikuan.github.io/tags/h5/"/>
+      <category term="h5" scheme="https://songzhikuan/tags/h5/"/>
     
-      <category term="移动端" scheme="https://songzhikuan.github.io/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+      <category term="移动端" scheme="https://songzhikuan/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>正则表达式</title>
-    <link href="https://songzhikuan.github.io/2018/10/10/20181010/"/>
-    <id>https://songzhikuan.github.io/2018/10/10/20181010/</id>
+    <link href="https://songzhikuan/2018/10/10/20181010/"/>
+    <id>https://songzhikuan/2018/10/10/20181010/</id>
     <published>2018-10-10T08:37:50.000Z</published>
     <updated>2018-11-13T08:16:37.015Z</updated>
     
@@ -73,17 +73,17 @@
     
     </summary>
     
-      <category term="正则表达式" scheme="https://songzhikuan.github.io/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+      <category term="正则表达式" scheme="https://songzhikuan/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
     
     
-      <category term="正则" scheme="https://songzhikuan.github.io/tags/%E6%AD%A3%E5%88%99/"/>
+      <category term="正则" scheme="https://songzhikuan/tags/%E6%AD%A3%E5%88%99/"/>
     
   </entry>
   
   <entry>
     <title>h5基础回顾</title>
-    <link href="https://songzhikuan.github.io/2018/10/09/20181009/"/>
-    <id>https://songzhikuan.github.io/2018/10/09/20181009/</id>
+    <link href="https://songzhikuan/2018/10/09/20181009/"/>
+    <id>https://songzhikuan/2018/10/09/20181009/</id>
     <published>2018-10-09T07:30:41.000Z</published>
     <updated>2018-11-13T08:24:11.828Z</updated>
     
@@ -93,17 +93,17 @@
     
     </summary>
     
-      <category term="Css" scheme="https://songzhikuan.github.io/categories/Css/"/>
+      <category term="Css" scheme="https://songzhikuan/categories/Css/"/>
     
     
-      <category term="前端" scheme="https://songzhikuan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://songzhikuan/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>读阮老师网站感想</title>
-    <link href="https://songzhikuan.github.io/2018/10/07/20181007/"/>
-    <id>https://songzhikuan.github.io/2018/10/07/20181007/</id>
+    <link href="https://songzhikuan/2018/10/07/20181007/"/>
+    <id>https://songzhikuan/2018/10/07/20181007/</id>
     <published>2018-10-07T04:13:57.000Z</published>
     <updated>2018-11-13T08:16:37.011Z</updated>
     
@@ -119,15 +119,15 @@
     
     </summary>
     
-      <category term="观点和感想" scheme="https://songzhikuan.github.io/categories/%E8%A7%82%E7%82%B9%E5%92%8C%E6%84%9F%E6%83%B3/"/>
+      <category term="观点和感想" scheme="https://songzhikuan/categories/%E8%A7%82%E7%82%B9%E5%92%8C%E6%84%9F%E6%83%B3/"/>
     
     
   </entry>
   
   <entry>
     <title>CSS基础</title>
-    <link href="https://songzhikuan.github.io/2018/10/05/Css/"/>
-    <id>https://songzhikuan.github.io/2018/10/05/Css/</id>
+    <link href="https://songzhikuan/2018/10/05/Css/"/>
+    <id>https://songzhikuan/2018/10/05/Css/</id>
     <published>2018-10-05T14:47:54.000Z</published>
     <updated>2018-11-13T08:16:37.024Z</updated>
     
@@ -137,17 +137,17 @@
     
     </summary>
     
-      <category term="Css" scheme="https://songzhikuan.github.io/categories/Css/"/>
+      <category term="Css" scheme="https://songzhikuan/categories/Css/"/>
     
     
-      <category term="Css" scheme="https://songzhikuan.github.io/tags/Css/"/>
+      <category term="Css" scheme="https://songzhikuan/tags/Css/"/>
     
   </entry>
   
   <entry>
     <title>Git相关命令</title>
-    <link href="https://songzhikuan.github.io/2018/10/02/GitOrder/"/>
-    <id>https://songzhikuan.github.io/2018/10/02/GitOrder/</id>
+    <link href="https://songzhikuan/2018/10/02/GitOrder/"/>
+    <id>https://songzhikuan/2018/10/02/GitOrder/</id>
     <published>2018-10-02T05:39:21.000Z</published>
     <updated>2018-10-02T16:42:51.730Z</updated>
     
@@ -157,19 +157,19 @@
     
     </summary>
     
-      <category term="Git" scheme="https://songzhikuan.github.io/categories/Git/"/>
+      <category term="Git" scheme="https://songzhikuan/categories/Git/"/>
     
     
-      <category term="GitHub" scheme="https://songzhikuan.github.io/tags/GitHub/"/>
+      <category term="GitHub" scheme="https://songzhikuan/tags/GitHub/"/>
     
-      <category term="Git" scheme="https://songzhikuan.github.io/tags/Git/"/>
+      <category term="Git" scheme="https://songzhikuan/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Git使用</title>
-    <link href="https://songzhikuan.github.io/2018/10/02/Git/"/>
-    <id>https://songzhikuan.github.io/2018/10/02/Git/</id>
+    <link href="https://songzhikuan/2018/10/02/Git/"/>
+    <id>https://songzhikuan/2018/10/02/Git/</id>
     <published>2018-10-02T04:51:28.000Z</published>
     <updated>2018-10-08T13:16:37.916Z</updated>
     
@@ -179,19 +179,19 @@
     
     </summary>
     
-      <category term="Git" scheme="https://songzhikuan.github.io/categories/Git/"/>
+      <category term="Git" scheme="https://songzhikuan/categories/Git/"/>
     
     
-      <category term="GitHub" scheme="https://songzhikuan.github.io/tags/GitHub/"/>
+      <category term="GitHub" scheme="https://songzhikuan/tags/GitHub/"/>
     
-      <category term="Git" scheme="https://songzhikuan.github.io/tags/Git/"/>
+      <category term="Git" scheme="https://songzhikuan/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>js数组</title>
-    <link href="https://songzhikuan.github.io/2018/10/01/jsArray/"/>
-    <id>https://songzhikuan.github.io/2018/10/01/jsArray/</id>
+    <link href="https://songzhikuan/2018/10/01/jsArray/"/>
+    <id>https://songzhikuan/2018/10/01/jsArray/</id>
     <published>2018-10-01T14:06:05.000Z</published>
     <updated>2018-10-02T14:31:14.729Z</updated>
     
@@ -201,14 +201,14 @@
     
     </summary>
     
-      <category term="JavaScript" scheme="https://songzhikuan.github.io/categories/JavaScript/"/>
+      <category term="JavaScript" scheme="https://songzhikuan/categories/JavaScript/"/>
     
     
-      <category term="前端" scheme="https://songzhikuan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="https://songzhikuan/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="JavaScript" scheme="https://songzhikuan.github.io/tags/JavaScript/"/>
+      <category term="JavaScript" scheme="https://songzhikuan/tags/JavaScript/"/>
     
-      <category term="数组" scheme="https://songzhikuan.github.io/tags/%E6%95%B0%E7%BB%84/"/>
+      <category term="数组" scheme="https://songzhikuan/tags/%E6%95%B0%E7%BB%84/"/>
     
   </entry>
   
