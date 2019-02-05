@@ -108,18 +108,18 @@
 
 
 
-  <meta name="description" content="SpringCloud-Feign公共模块依赖1implementation &quot;org.springframework.cloud:spring-cloud-starter-openfeign&quot; 接口——DeptService12345678910111213141516171819202122232425262728293031323334package com.zhikuan.service;">
-<meta name="keywords" content="Spring,SpringCloud">
+  <meta name="description" content="SpringCloud-Feign公共模块依赖1implementation &quot;org.springframework.cloud:spring-cloud-starter-openfeign&quot;">
+<meta name="keywords" content="SpringCloud,Spring">
 <meta property="og:type" content="article">
 <meta property="og:title" content="pringCloud-Feign">
 <meta property="og:url" content="https://songzhikuan/2019/02/05/SpringCloud-Feign/index.html">
 <meta property="og:site_name" content="宋志宽">
-<meta property="og:description" content="SpringCloud-Feign公共模块依赖1implementation &quot;org.springframework.cloud:spring-cloud-starter-openfeign&quot; 接口——DeptService12345678910111213141516171819202122232425262728293031323334package com.zhikuan.service;">
+<meta property="og:description" content="SpringCloud-Feign公共模块依赖1implementation &quot;org.springframework.cloud:spring-cloud-starter-openfeign&quot;">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-05T09:21:18.886Z">
+<meta property="og:updated_time" content="2019-02-05T09:36:29.541Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="pringCloud-Feign">
-<meta name="twitter:description" content="SpringCloud-Feign公共模块依赖1implementation &quot;org.springframework.cloud:spring-cloud-starter-openfeign&quot; 接口——DeptService12345678910111213141516171819202122232425262728293031323334package com.zhikuan.service;">
+<meta name="twitter:description" content="SpringCloud-Feign公共模块依赖1implementation &quot;org.springframework.cloud:spring-cloud-starter-openfeign&quot;">
 
 
 
@@ -384,7 +384,7 @@
                 
               
 
-              <time title="创建时间：2019-02-05 12:22:38 / 修改时间：17:21:18" itemprop="dateCreated datePublished" datetime="2019-02-05T12:22:38+08:00">2019-02-05</time>
+              <time title="创建时间：2019-02-05 12:22:38 / 修改时间：17:36:29" itemprop="dateCreated datePublished" datetime="2019-02-05T12:22:38+08:00">2019-02-05</time>
             
 
             
@@ -441,6 +441,7 @@
 
       
         <h1 id="SpringCloud-Feign"><a href="#SpringCloud-Feign" class="headerlink" title="SpringCloud-Feign"></a>SpringCloud-Feign</h1><h2 id="公共模块"><a href="#公共模块" class="headerlink" title="公共模块"></a>公共模块</h2><h3 id="依赖"><a href="#依赖" class="headerlink" title="依赖"></a>依赖</h3><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">implementation <span class="string">"org.springframework.cloud:spring-cloud-starter-openfeign"</span></span><br></pre></td></tr></table></figure>
+<a id="more"></a>
 <h3 id="接口——DeptService"><a href="#接口——DeptService" class="headerlink" title="接口——DeptService"></a>接口——DeptService</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.zhikuan.service;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.zhikuan.entities.Dept;</span><br><span class="line"><span class="keyword">import</span> org.springframework.cloud.openfeign.FeignClient;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.PathVariable;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.PostMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestBody;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Songzk</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span> 2019/2/2</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@FeignClient</span>(value = <span class="string">"CLOUD-PROVIDER1"</span>)</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">DeptService</span> </span>&#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 新增</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@PostMapping</span>(value = <span class="string">"dept"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">boolean</span> <span class="title">addDept</span><span class="params">(@RequestBody Dept dept)</span></span>;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 查询一条</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@GetMapping</span>(value = <span class="string">"dept/&#123;id&#125;"</span>)</span><br><span class="line">     <span class="function">Dept <span class="title">getDept</span><span class="params">(@PathVariable(<span class="string">"id"</span>)</span>Long id) </span>;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 查询全部</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@GetMapping</span>(value = <span class="string">"depts"</span>)</span><br><span class="line">     <span class="function">List&lt;Dept&gt; <span class="title">getDepts</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="客服端"><a href="#客服端" class="headerlink" title="客服端"></a>客服端</h2><h3 id="依赖-1"><a href="#依赖-1" class="headerlink" title="依赖"></a>依赖</h3><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">implementation <span class="string">'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'</span></span><br><span class="line">implementation <span class="string">'org.springframework.cloud:spring-cloud-starter-netflix-ribbon'</span></span><br><span class="line">implementation <span class="string">"org.springframework.cloud:spring-cloud-starter-openfeign"</span></span><br></pre></td></tr></table></figure>
 <h3 id="controller"><a href="#controller" class="headerlink" title="controller"></a>controller</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.zhikuan.cloud.controller;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.zhikuan.service.DeptService;</span><br><span class="line"><span class="keyword">import</span> com.zhikuan.entities.Dept;</span><br><span class="line"><span class="keyword">import</span> org.springframework.beans.factory.annotation.Autowired;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.PathVariable;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.PostMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RestController;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Songzk</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span> 2019/1/24</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DeptController</span> </span>&#123;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> DeptService deptService;</span><br><span class="line">    <span class="meta">@PostMapping</span>(<span class="string">"/consumer/dept/add"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">add</span><span class="params">(Dept dept)</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> deptService.addDept(dept);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping</span>(<span class="string">"/consumer/dept/&#123;id&#125;"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> Dept <span class="title">getDept</span><span class="params">(@PathVariable(<span class="string">"id"</span>)</span>Long id) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> deptService.getDept(id);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping</span>(<span class="string">"/consumer/depts"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;Dept&gt; <span class="title">getDepts</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> deptService.getDepts();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -465,9 +466,9 @@
       
         <div class="post-tags">
           
-            <a href="/blog/tags/Spring/" rel="tag"># Spring</a>
-          
             <a href="/blog/tags/SpringCloud/" rel="tag"># SpringCloud</a>
+          
+            <a href="/blog/tags/Spring/" rel="tag"># Spring</a>
           
         </div>
       
@@ -480,8 +481,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2019/02/05/20190205/" rel="next" title="除夕过后，2019已迎面而来">
-                <i class="fa fa-chevron-left"></i> 除夕过后，2019已迎面而来
+              <a href="/blog/2019/02/05/SpringCloud-hystrix/" rel="next" title="pringCloud-hystrix">
+                <i class="fa fa-chevron-left"></i> pringCloud-hystrix
               </a>
             
           </div>
@@ -489,10 +490,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/blog/2019/02/05/SpringCloud-Eureka/" rel="prev" title="pringCloud-Eureka">
-                pringCloud-Eureka <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>

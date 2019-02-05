@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://songzhikuan/"/>
-  <updated>2019-02-05T09:21:18.927Z</updated>
+  <updated>2019-02-05T09:36:29.541Z</updated>
   <id>https://songzhikuan/</id>
   
   <author>
@@ -17,30 +17,70 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SpringCloud基础</title>
-    <link href="https://songzhikuan/2019/02/05/SpringCloud%E5%9F%BA%E7%A1%80/"/>
-    <id>https://songzhikuan/2019/02/05/SpringCloud基础/</id>
+    <title>pringCloud-Feign</title>
+    <link href="https://songzhikuan/2019/02/05/SpringCloud-Feign/"/>
+    <id>https://songzhikuan/2019/02/05/SpringCloud-Feign/</id>
     <published>2019-02-05T04:22:38.000Z</published>
-    <updated>2019-02-05T09:21:18.927Z</updated>
+    <updated>2019-02-05T09:36:29.541Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;SpringCloud基础&quot;&gt;&lt;a href=&quot;#SpringCloud基础&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud基础&quot;&gt;&lt;/a&gt;SpringCloud基础&lt;/h1&gt;&lt;h2 id=&quot;问题集&quot;&gt;&lt;a href=&quot;#问题集&quot;
-        
-      
+      &lt;h1 id=&quot;SpringCloud-Feign&quot;&gt;&lt;a href=&quot;#SpringCloud-Feign&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-Feign&quot;&gt;&lt;/a&gt;SpringCloud-Feign&lt;/h1&gt;&lt;h2 id=&quot;公共模块&quot;&gt;&lt;a href=&quot;#公共模块&quot; class=&quot;headerlink&quot; title=&quot;公共模块&quot;&gt;&lt;/a&gt;公共模块&lt;/h2&gt;&lt;h3 id=&quot;依赖&quot;&gt;&lt;a href=&quot;#依赖&quot; class=&quot;headerlink&quot; title=&quot;依赖&quot;&gt;&lt;/a&gt;依赖&lt;/h3&gt;&lt;figure class=&quot;highlight groovy&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;implementation &lt;span class=&quot;string&quot;&gt;&quot;org.springframework.cloud:spring-cloud-starter-openfeign&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
       <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
     
     
+      <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
+    
       <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
     
+  </entry>
+  
+  <entry>
+    <title>pringCloud-hystrix</title>
+    <link href="https://songzhikuan/2019/02/05/SpringCloud-hystrix/"/>
+    <id>https://songzhikuan/2019/02/05/SpringCloud-hystrix/</id>
+    <published>2019-02-05T04:22:38.000Z</published>
+    <updated>2019-02-05T09:36:29.724Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;SpringCloud-hystrix&quot;&gt;&lt;a href=&quot;#SpringCloud-hystrix&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-hystrix&quot;&gt;&lt;/a&gt;SpringCloud-hystrix&lt;/h1&gt;&lt;h2 id=&quot;异常&quot;&gt;&lt;a href=&quot;#异常&quot; class=&quot;headerlink&quot; title=&quot;异常&quot;&gt;&lt;/a&gt;异常&lt;/h2&gt;&lt;p&gt;No fallbackFactory instance of type class feign&lt;br&gt;分析：1、实现了接口&lt;em&gt;FallbackFactory的&lt;/em&gt;实现类没有加@Component；&lt;br&gt;2、没有扫描到降级类，如：@ComponentScan(basePackages={“main”,””降级类所在的包”})&lt;br&gt;
+    
+    </summary>
+    
+      <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
+    
+    
       <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
+    
+      <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringCloud基础</title>
+    <link href="https://songzhikuan/2019/02/05/SpringCloud%E5%9F%BA%E7%A1%80/"/>
+    <id>https://songzhikuan/2019/02/05/SpringCloud基础/</id>
+    <published>2019-02-05T04:22:38.000Z</published>
+    <updated>2019-02-05T09:36:29.579Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;SpringCloud基础&quot;&gt;&lt;a href=&quot;#SpringCloud基础&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud基础&quot;&gt;&lt;/a&gt;SpringCloud基础&lt;/h1&gt;&lt;h2 id=&quot;问题集&quot;&gt;&lt;a href=&quot;#问题集&quot; class=&quot;headerlink&quot; title=&quot;问题集&quot;&gt;&lt;/a&gt;问题集&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Eureka与Zookeeper比较，&lt;a href=&quot;https://www.cnblogs.com/zgghb/p/6515062.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;链接&lt;/a&gt;&lt;ol&gt;
+&lt;li&gt;Eureka是AP原则，Zookeeper是CP原则
+    
+    </summary>
+    
+      <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
+    
+    
+      <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
+    
+      <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
     
   </entry>
   
@@ -49,110 +89,20 @@
     <link href="https://songzhikuan/2019/02/05/SpringCloud-zuul/"/>
     <id>https://songzhikuan/2019/02/05/SpringCloud-zuul/</id>
     <published>2019-02-05T04:22:38.000Z</published>
-    <updated>2019-02-05T09:21:18.991Z</updated>
+    <updated>2019-02-05T09:36:29.671Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;SpringCloud-zuul&quot;&gt;&lt;a href=&quot;#SpringCloud-zuul&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-zuul&quot;&gt;&lt;/a&gt;SpringCloud-zuul&lt;/h1&gt;&lt;h2 id=&quot;相关依赖&quot;&gt;&lt;a
-        
-      
+      &lt;h1 id=&quot;SpringCloud-zuul&quot;&gt;&lt;a href=&quot;#SpringCloud-zuul&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-zuul&quot;&gt;&lt;/a&gt;SpringCloud-zuul&lt;/h1&gt;&lt;h2 id=&quot;相关依赖&quot;&gt;&lt;a href=&quot;#相关依赖&quot; class=&quot;headerlink&quot; title=&quot;相关依赖&quot;&gt;&lt;/a&gt;相关依赖&lt;/h2&gt;&lt;figure class=&quot;highlight groovy&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;implementation &lt;span class=&quot;string&quot;&gt;&#39;org.springframework.cloud:spring-cloud-starter-config&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;implementation &lt;span class=&quot;string&quot;&gt;&#39;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;implementation &lt;span class=&quot;string&quot;&gt;&#39;org.springframework.cloud:spring-cloud-starter-netflix-zuul&#39;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
       <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
     
     
-      <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
-    
       <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
     
-  </entry>
-  
-  <entry>
-    <title>pringCloud-Ribbon</title>
-    <link href="https://songzhikuan/2019/02/05/SpringCloud-Ribbon/"/>
-    <id>https://songzhikuan/2019/02/05/SpringCloud-Ribbon/</id>
-    <published>2019-02-05T04:22:38.000Z</published>
-    <updated>2019-02-05T09:21:18.854Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;SpringCloud-Ribbon&quot;&gt;&lt;a href=&quot;#SpringCloud-Ribbon&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
-    
-    
       <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
-    
-      <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pringCloud-Eureka</title>
-    <link href="https://songzhikuan/2019/02/05/SpringCloud-Eureka/"/>
-    <id>https://songzhikuan/2019/02/05/SpringCloud-Eureka/</id>
-    <published>2019-02-05T04:22:38.000Z</published>
-    <updated>2019-02-05T09:21:18.754Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;SpringCloud-Eureka&quot;&gt;&lt;a href=&quot;#SpringCloud-Eureka&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-Eureka&quot;&gt;&lt;/a&gt;SpringCloud-Eureka&lt;/h1&gt;&lt;h2
-        
-      
-    
-    </summary>
-    
-      <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
-    
-    
-      <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
-    
-      <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pringCloud-Feign</title>
-    <link href="https://songzhikuan/2019/02/05/SpringCloud-Feign/"/>
-    <id>https://songzhikuan/2019/02/05/SpringCloud-Feign/</id>
-    <published>2019-02-05T04:22:38.000Z</published>
-    <updated>2019-02-05T09:21:18.886Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;SpringCloud-Feign&quot;&gt;&lt;a href=&quot;#SpringCloud-Feign&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-Feign&quot;&gt;&lt;/a&gt;SpringCloud-Feign&lt;/h1&gt;&lt;h2
-        
-      
-    
-    </summary>
-    
-      <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
-    
-    
-      <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
-    
-      <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
     
   </entry>
   
@@ -175,58 +125,68 @@
   </entry>
   
   <entry>
-    <title>SpringBoot基础</title>
-    <link href="https://songzhikuan/2019/02/05/SpringBoot%E5%9F%BA%E7%A1%80/"/>
-    <id>https://songzhikuan/2019/02/05/SpringBoot基础/</id>
+    <title>pringCloud-Ribbon</title>
+    <link href="https://songzhikuan/2019/02/05/SpringCloud-Ribbon/"/>
+    <id>https://songzhikuan/2019/02/05/SpringCloud-Ribbon/</id>
     <published>2019-02-05T04:22:38.000Z</published>
-    <updated>2019-02-05T09:19:20.900Z</updated>
+    <updated>2019-02-05T09:36:29.504Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;SpringBoot基础&quot;&gt;&lt;a href=&quot;#SpringBoot基础&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot基础&quot;&gt;&lt;/a&gt;SpringBoot基础&lt;/h1&gt;&lt;h1 id=&quot;SpringBoot简介&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="SpringBoot" scheme="https://songzhikuan/categories/SpringBoot/"/>
-    
-    
-      <category term="SpringBoot" scheme="https://songzhikuan/tags/SpringBoot/"/>
-    
-      <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>pringCloud-hystrix</title>
-    <link href="https://songzhikuan/2019/02/05/SpringCloud-hystrix/"/>
-    <id>https://songzhikuan/2019/02/05/SpringCloud-hystrix/</id>
-    <published>2019-02-05T04:22:38.000Z</published>
-    <updated>2019-02-05T09:21:19.036Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;SpringCloud-hystrix&quot;&gt;&lt;a href=&quot;#SpringCloud-hystrix&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-hystrix&quot;&gt;&lt;/a&gt;SpringCloud-hystrix&lt;/h1&gt;&lt;h2
-        
-      
+      &lt;h1 id=&quot;SpringCloud-Ribbon&quot;&gt;&lt;a href=&quot;#SpringCloud-Ribbon&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-Ribbon&quot;&gt;&lt;/a&gt;SpringCloud-Ribbon&lt;/h1&gt;&lt;p&gt;SpringCloud Ribbon 是基于Netflix Ribbon实现的一套客户端均衡负载的工具。&lt;br&gt;本次实验基于Ribbon+RestTemplate&lt;br&gt;
     
     </summary>
     
       <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
     
     
+      <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
+    
       <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
     
+  </entry>
+  
+  <entry>
+    <title>SpringBoot基础</title>
+    <link href="https://songzhikuan/2019/02/05/SpringBoot%E5%9F%BA%E7%A1%80/"/>
+    <id>https://songzhikuan/2019/02/05/SpringBoot基础/</id>
+    <published>2019-02-05T04:22:38.000Z</published>
+    <updated>2019-02-05T09:36:29.629Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;SpringBoot基础&quot;&gt;&lt;a href=&quot;#SpringBoot基础&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot基础&quot;&gt;&lt;/a&gt;SpringBoot基础&lt;/h1&gt;&lt;h1 id=&quot;SpringBoot简介&quot;&gt;&lt;a href=&quot;#SpringBoot简介&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot简介&quot;&gt;&lt;/a&gt;SpringBoot简介&lt;/h1&gt;&lt;h2 id=&quot;版本要求&quot;&gt;&lt;a href=&quot;#版本要求&quot; class=&quot;headerlink&quot; title=&quot;版本要求&quot;&gt;&lt;/a&gt;版本要求&lt;/h2&gt;&lt;p&gt;本次学习SpringBoot2.0版本，jdk1.8以上&lt;br&gt;
+    
+    </summary>
+    
+      <category term="SpringBoot" scheme="https://songzhikuan/categories/SpringBoot/"/>
+    
+    
+      <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
+    
+      <category term="SpringBoot" scheme="https://songzhikuan/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pringCloud-Eureka</title>
+    <link href="https://songzhikuan/2019/02/05/SpringCloud-Eureka/"/>
+    <id>https://songzhikuan/2019/02/05/SpringCloud-Eureka/</id>
+    <published>2019-02-05T04:22:38.000Z</published>
+    <updated>2019-02-05T09:36:29.432Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;SpringCloud-Eureka&quot;&gt;&lt;a href=&quot;#SpringCloud-Eureka&quot; class=&quot;headerlink&quot; title=&quot;SpringCloud-Eureka&quot;&gt;&lt;/a&gt;SpringCloud-Eureka&lt;/h1&gt;&lt;h2 id=&quot;版本信息&quot;&gt;&lt;a href=&quot;#版本信息&quot; class=&quot;headerlink&quot; title=&quot;版本信息&quot;&gt;&lt;/a&gt;版本信息&lt;/h2&gt;&lt;p&gt;Boot版本：2.0.7.RELEASE，Cloud版本：Finchley.SR2&lt;br&gt;
+    
+    </summary>
+    
+      <category term="SpringCloud" scheme="https://songzhikuan/categories/SpringCloud/"/>
+    
+    
       <category term="SpringCloud" scheme="https://songzhikuan/tags/SpringCloud/"/>
+    
+      <category term="Spring" scheme="https://songzhikuan/tags/Spring/"/>
     
   </entry>
   
