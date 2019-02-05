@@ -1,3 +1,9 @@
+---
+title: pringCloud-Feign
+date: 2019-02-05 12:22:38
+tags: [SpringCloud,Spring]
+categories: SpringCloud
+---
 # SpringCloud-Feign
 
 ## 公共模块
@@ -6,7 +12,7 @@
 ```groovy
 implementation "org.springframework.cloud:spring-cloud-starter-openfeign"
 ```
-
+<!--more-->
 ### 接口——DeptService
 ```java
 package com.zhikuan.service;

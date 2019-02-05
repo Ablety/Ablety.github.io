@@ -1,10 +1,16 @@
+---
+title: SpringBoot基础
+date: 2019-02-05 12:22:38
+tags: [SpringBoot,Spring]
+categories: SpringBoot
+---
 # SpringBoot基础
 
 # SpringBoot简介
 ## 版本要求    
 
 本次学习SpringBoot2.0版本，jdk1.8以上
-
+<!--more-->
 ## SpringBoot和SpringMVC、SpringCloud区别
 SpringBoot
 是一个快速开发的框架,能够快速的整合第三方框架，简化XML配置，全部采用注解形式，内置Tomcat容器,帮助开发者能够实现快速开发，SpringBoot的Web组件 默认集成的是SpringMVC框架。<br />SpringMVC是控制层<br />SpringCloud依赖与SpringBoot组件，使用SpringMVC编写Http协议接口，同时SpringCloud是一套完整的微服务解决框架

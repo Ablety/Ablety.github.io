@@ -1,7 +1,14 @@
+---
+title: pringCloud-hystrix
+date: 2019-02-05 12:22:38
+tags: [SpringCloud,Spring]
+categories: SpringCloud
+---
 # SpringCloud-hystrix
 
 ## 异常
 No fallbackFactory instance of type class feign<br />分析：1、实现了接口_FallbackFactory的_实现类没有加@Component；<br />2、没有扫描到降级类，如：@ComponentScan(basePackages={"main",""降级类所在的包"})
+<!--more-->
 ## 服务熔断
 ### 依赖配置
 ```groovy

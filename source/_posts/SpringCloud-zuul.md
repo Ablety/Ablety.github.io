@@ -1,3 +1,9 @@
+---
+title: pringCloud-zuul
+date: 2019-02-05 12:22:38
+tags: [SpringCloud,Spring]
+categories: SpringCloud
+---
 # SpringCloud-zuul
 
 ## 相关依赖
@@ -6,7 +12,7 @@ implementation 'org.springframework.cloud:spring-cloud-starter-config'
 implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 implementation 'org.springframework.cloud:spring-cloud-starter-netflix-zuul'
 ```
-
+<!--more-->
 ## yml配置
 ```yaml
 eureka:

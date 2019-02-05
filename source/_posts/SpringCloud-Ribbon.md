@@ -1,6 +1,13 @@
+---
+title: pringCloud-Ribbon
+date: 2019-02-05 12:22:38
+tags: [SpringCloud,Spring]
+categories: SpringCloud
+---
 # SpringCloud-Ribbon
 
 SpringCloud Ribbon 是基于Netflix Ribbon实现的一套客户端均衡负载的工具。<br />本次实验基于Ribbon+RestTemplate
+<!--more-->
 ## 报错异常
 1. java.lang.IllegalStateException: Request URI does not contain a valid hostname: http://CLOUD_PROVIDER1:14001/depts（服务名不能有下划线）
 

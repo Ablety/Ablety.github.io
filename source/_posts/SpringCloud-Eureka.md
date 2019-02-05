@@ -1,7 +1,14 @@
+---
+title: pringCloud-Eureka
+date: 2019-02-05 12:22:38
+tags: [SpringCloud,Spring]
+categories: SpringCloud
+---
 # SpringCloud-Eureka
 
 ## 版本信息
 Boot版本：2.0.7.RELEASE，Cloud版本：Finchley.SR2
+<!--more-->
 ## 报错处理
 1. [ClassNotFoundException for 'com.google.common.collect.Lists'](https://stackoverflow.com/questions/49903191/classnotfoundexception-for-com-google-common-collect-lists)
 1.  java.lang.NoClassDefFoundError: com/google/common/base/Function
